@@ -1,0 +1,212 @@
+/* 
+    ### COLOR DEFINITIONS 
+*/
+:root {
+    --text: #000;
+    --background: #ead4f1;
+    --heading: #3c096c;
+    --heading-shadow: #ceafe8;
+    --line: var(--heading);
+    --footer: var(--heading);
+
+    --link: #8e27ee;
+    --link-hover: #6213ac;
+    --link-footer: var(--heading-shadow);
+    --link-footer-hover: var(--link);
+
+    --button-background: #666;
+    --button-foreground: #f9f9f9;
+}
+.dark-mode {
+    --text: #fff;
+    --background: #160327;
+    --heading: #bd76ff;
+    --heading-shadow: #391d51;
+    --line: var(--heading);
+    --footer: var(--heading-shadow);
+
+    --link: #efef1e;
+    --link-hover: #9f9f20;
+    --link-footer: var(--link);
+    --link-footer-hover: var(--link-hover);
+}
+
+
+/* 
+    ### FONT DEFINITIONS
+*/
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+*[lang=ja] {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, Meiryo, "メイリオ", sans-serif;
+}
+
+
+
+/* 
+    ### HTML & BODY
+*/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-size: 1rem;
+
+    color: var(--text);
+    background-color: var(--background);
+}
+
+
+
+/* 
+    ### LINK AND TEXT COLORS
+*/
+a, a:active, a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--link);
+}
+a:hover {
+    color: var(--link-hover);
+}
+h1, h2, h3, h4, h5, h6 {
+    color: var(--heading);
+}
+
+
+/* 
+    ### MARGINS AND PADDINGS 
+*/
+.row {
+    margin: 0;
+    padding: 0;
+}
+.col-md-12 {
+    margin: 0;
+    padding: 0;
+}
+.spacer {
+    margin: 2% 0;
+}
+
+
+/* 
+    FLOATING CONTAINERS 
+*/ 
+.controls {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    box-shadow: 5px 8px 5px gray;
+}
+.content-image {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 15%;
+}
+.content-image img {
+    width: 80%;
+}
+
+
+/* 
+    ### HEADER
+*/
+header h1[lang=de],
+header h1[lang=en] {
+    font-size: 5rem;
+    color: var(--heading);
+    /* Move 'DOPPERA' on top of the katakana characters */
+    position: relative;
+    top: -5.5rem;
+}
+header h1[lang=ja] {
+    font-size: 7rem;
+    color: var(--heading-shadow);
+    /* Offset the katakana characters, as the first one is only half-width */
+    margin-left: -0.1em;
+}
+header h2 {
+    margin-top: -3em;
+}
+
+
+/* 
+    ### NAVIGATION
+*/
+nav {
+    margin: 10px 0;
+
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+}
+
+
+/* 
+    ### MAIN CONTENT 
+*/
+main article {
+    margin: 0;
+    padding: 2% 6%;
+    margin-right: 15%;
+    border-top: 1px solid var(--line);
+}
+main article:nth-of-type(2n) {
+    margin-right: 0;
+    margin-left: 15%;
+}
+
+
+
+/* 
+    ### FOOTER
+*/
+
+footer {
+    background-color: var(--footer);
+}
+footer a, footer a:active, footer a:visited {
+    color: var(--link-footer)
+}
+footer a:hover {
+    color: var(--link-footer-hover);
+}
+
+
+
+
+/* 
+    ### MEDIA QUERIES
+*/
+
+/* Same width as bootstraps md definition */
+@media (max-width: 767.98px) {
+    main article {
+        margin-right: 0;
+    }
+
+    main article:nth-of-type(2n) {
+        margin-left: 0;
+    }
+
+    .content-image {
+        display: none;
+    }
+    header h1[lang=de],
+    header h1[lang=en] {
+        font-size: 3.5rem;
+        color: darkviolet;
+        position: relative;
+        top: -4rem;
+    }
+    header h1[lang=ja] {
+        font-size: 5.5rem;
+        color: violet;
+        margin-left: -0.2em;
+    }
+    header h2 {
+        font-size: 1.2rem;
+    }
+}
