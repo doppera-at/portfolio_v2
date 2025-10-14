@@ -4,6 +4,7 @@
 :root {
     --text: #000;
     --background: #ead4f1;
+    --background-noscript: red;
     --heading: #3c096c;
     --heading-shadow: #ceafe8;
     --line: var(--heading);
@@ -29,6 +30,9 @@
     --link-hover: #9f9f20;
     --link-footer: var(--link);
     --link-footer-hover: var(--link-hover);
+
+    --background-noscript: #881111;
+    --line-noscript: #570808;
 }
 
 
@@ -62,7 +66,7 @@ body {
 /* 
     ### LINK AND TEXT COLORS
 */
-a, a:active, a:visited {
+a:link, a:active, a:visited {
     text-decoration: none;
     font-weight: bold;
     color: var(--link);
@@ -98,7 +102,8 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: 1%;
     right: 1%;
-    box-shadow: 5px 8px 5px gray;
+    box-shadow: 5px 8px 5px var(--heading-shadow);
+    border: 1px solid var(--line);
 }
 .content-image {
     position: absolute;
@@ -139,8 +144,25 @@ header h2 {
 nav {
     margin: 10px 0;
 
-    border-top: 1px solid var(--line);
-    border-bottom: 1px solid var(--line);
+    border-top: 1px solid var(--heading-shadow);
+    border-bottom: 1px solid var(--heading-shadow);
+}
+.nav a:link, 
+.nav a:active, 
+.nav a:visited {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--link);
+}
+.nav a:hover {
+    color: var(--link-hover);
+}
+.dropdown-menu {
+    background-color: var(--heading-shadow);
+    border: 1px solid var(--line);
+}
+.dropdown-item:hover {
+    background-color: var(--background);
 }
 
 
@@ -159,13 +181,13 @@ main article:nth-of-type(2n) {
 }
 
 
-
 /* 
     ### FOOTER
 */
 
 footer {
     background-color: var(--footer);
+    border-top: 1px solid var(--line);
 }
 footer a, footer a:active, footer a:visited {
     color: var(--link-footer)
@@ -175,6 +197,19 @@ footer a:hover {
 }
 
 
+/*
+    ### NOSCRIPT
+*/
+#noscript {
+    padding: 1rem 0;
+    font-size: 1.0rem;
+    background-color: var(--background-noscript);
+    border-bottom: 1px solid var(--line-noscript);
+    border-top: 1px solid var(--line-noscript);
+}
+#noscript h2 {
+    color: var(--text);
+}
 
 
 /* 
@@ -197,13 +232,11 @@ footer a:hover {
     header h1[lang=de],
     header h1[lang=en] {
         font-size: 3.5rem;
-        color: darkviolet;
         position: relative;
         top: -4rem;
     }
     header h1[lang=ja] {
         font-size: 5.5rem;
-        color: violet;
         margin-left: -0.2em;
     }
     header h2 {
