@@ -1,6 +1,16 @@
 /*
+As a start I used this tutorial from GeeksForGeeks, which acted as a base for this project:
+https://www.geeksforgeeks.org/html/create-a-minesweeper-game-using-html-css-javascript/
 
+It offered a basic structure with a 2-dimensional array, using simple JS-objects.
 
+I then added onto it, providing the following changes:
+    - game board as a 1-dimensional array including the calculations necessary to make it work
+    - class to group together all data of a cell
+    - various difficulties to choose from
+    - ability to flag cells using right click
+    - instead of rendering the whole field each time, only apply the changes to the cells
+    - cells arranged using a grid-box
 
 
 Event-Listener for right click needed a flag after the function, as described here:
