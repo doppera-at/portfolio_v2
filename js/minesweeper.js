@@ -106,7 +106,7 @@ function initializeGameBoard() {
         if (cell.hasMine) continue;
         log.fine(`Cell ${index} has no mine. Calculating mine count.`);
 
-        for (let dRow = index - difficulty.numCols; dRow <= index + difficulty.numRows; dRow += difficulty.numRows) {
+        for (let dRow = index - difficulty.numCols; dRow <= index + difficulty.numCols; dRow += difficulty.numCols) {
             for (let dCol = -1; dCol <= 1; dCol++) {
                 let dIndex = dRow + dCol;
                 log.finer(`Checking index: ${dIndex}`);
@@ -118,7 +118,7 @@ function initializeGameBoard() {
                     log.finest(`   Cell at ${index} is at the left edge, but index ${dIndex} is on the right edge!`);
                     continue;
                 }
-                if (cell.index % difficulty.numCols == difficulty.numCols && dIndex % difficulty.numCols == 0) {
+                if (cell.index % difficulty.numCols == difficulty.numCols-1 && dIndex % difficulty.numCols == 0) {
                     log.finest(`   Cell at ${index} is at the right edge, but index ${dIndex} is on the left edge!`);
                     continue;
                 }
@@ -209,7 +209,7 @@ function revealCell(index) {
 
     let cell = gameBoard[index];
     if (!cell) {
-        log.error(`Unable to get cell at row ${row}, col ${col}. Out of bounds?`);
+        log.error(`Unable to get cell ${index}. Out of bounds?`);
         return;
     }
     log.debug(`Cell: ${JSON.stringify(cell)}`);
@@ -222,12 +222,6 @@ function revealCell(index) {
     log.info(`Revealing cell ${index}.`);
     cell.revealed = true;
     cellsRevealed++;
-    if (cell.numMinesAround == 0) {
-        for (let dRow = i - difficulty.numCols; dRow <= i + difficulty.numRows; dRow += difficulty.numRows) {
-            for (let dCol = -1; dCol <= 1; dCol++) {
-            }
-        }
-    }
 
     let divCell = document.getElementById("div-" + cell.index);
     log.debug(`Div of Cell: ${JSON.stringify(divCell)}`);
@@ -241,7 +235,34 @@ function revealCell(index) {
     } else if (cellsRevealed >= numCells - difficulty.numMines) {
         gameOver();
     }
+
+    if (!cell.hasMine && cell.numMinesAround == 0) {
+        log.debug(`Cell has no mines around, so revealing those cells too`);
+        for (let dRow = index - difficulty.numCols; dRow <= index + difficulty.numCols; dRow += difficulty.numCols) {
+            for (let dCol = -1; dCol <= 1; dCol++) {
+                let dIndex = dRow + dCol;
+                log.finer(`Checking index: ${dIndex}`);
+                if (dIndex < 0 || dIndex >= numCells) {
+                    log.finest(`   Index is out of bounds!`);
+                    continue;
+                }
+                if (index % difficulty.numCols == 0 && dIndex % difficulty.numCols > 1) {
+                    log.finest(`   Cell at ${index} is at the left edge, but index ${dIndex} is on the right edge!`);
+                    continue;
+                }
+                if (index % difficulty.numCols == difficulty.numCols-1 && dIndex % difficulty.numCols == 0) {
+                    log.finest(`   Cell at ${index} is at the right edge, but index ${dIndex} is on the left edge!`);
+                    continue;
+                }
+                if (gameBoard[dIndex].revealed) continue;
+
+                revealCell(dIndex);
+            }
+        }
+    }
 }
+
+
 
 
 function gameOver() {
