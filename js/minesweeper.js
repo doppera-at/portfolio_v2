@@ -1,3 +1,15 @@
+/*
+
+
+
+
+Event-Listener for right click needed a flag after the function, as described here:
+https://stackoverflow.com/questions/4235426/how-can-i-capture-the-right-click-event-in-javascript
+
+To prevent the right click menu, I used this thread from StackOverflow:
+https://stackoverflow.com/questions/737022/how-do-i-disable-right-click-on-my-web-page
+*/
+
 import { Logger } from "./logger.js"
 var logger = new Logger("main", Logger.LOG_LEVELS.FINEST);
 
@@ -13,15 +25,17 @@ class Cell {
     }
 
     getSymbol() {
-        if (this.hasMine) {
-            return '💣';
-        }
         if (this.flagged) {
             return '🚩';
+        }
+        if (this.hasMine) {
+            return '💣';
         }
         return this.numMinesAround;
     }
 }
+
+document.addEventListener("contextmenu", event => event.preventDefault());
 
 logger.info(`Inizialization of game started. Defining constants and resetting variables.`);
 
@@ -158,6 +172,7 @@ function renderGameBoard() {
         divCell.id = "div-" + i;
         divCell.name = i;
         divCell.addEventListener("click", revealCellEvent);
+        divCell.addEventListener("contextmenu", flagCellEvent, false);
         divGameBoard.appendChild(divCell);
     }
     log.debug(`Added ${divGameBoard.getElementsByTagName('div').length} cells to the html document.`);
@@ -226,6 +241,7 @@ function revealCell(index) {
     let divCell = document.getElementById("div-" + cell.index);
     log.debug(`Div of Cell: ${JSON.stringify(divCell)}`);
     divCell.removeEventListener("click", revealCellEvent);
+    divCell.removeEventListener("contextmenu", flagCellEvent);
     divCell.classList.add("revealed");
     divCell.innerText = cell.getSymbol();
 
@@ -263,6 +279,45 @@ function revealCell(index) {
 }
 
 
+function flagCellEvent(event) {
+    flagCell(event.target.name);
+}
+function flagCell(index) {
+    let log = logger.createSubLogger("flagCell");
+
+    let cell = gameBoard[index];
+    if (!cell) {
+        log.error(`Unable to get cell ${index}. Out of bounds?`);
+        return;
+    }
+
+    if (cell.revealed) {
+        log.warn(`Tried to reveal already revealed cell. This should be prevented!`);
+        return;
+    }
+
+    if (!cell.flagged) {
+        log.info(`Flagging cell ${index}.`);
+        log.debug(`   Cell: ${JSON.stringify(cell)}`);
+        cell.flagged = true;
+
+        let divCell = document.getElementById(`div-${index}`);
+        log.debug(`Div of cell: ${JSON.stringify(divCell)}`);
+        divCell.classList.add("flagged");
+        divCell.innerText = cell.getSymbol();
+        divCell.removeEventListener("click", revealCellEvent);
+    } else {
+        log.info(`Unflagging cell ${index}.`);
+        log.debug(`   Cell: ${JSON.stringify(cell)}`);
+        cell.flagged = false;
+
+        let divCell = document.getElementById(`div-${index}`);
+        log.debug(`Div of cell: ${JSON.stringify(divCell)}`);
+        divCell.classList.remove("flagged");
+        divCell.innerText = "";
+        divCell.addEventListener("click", revealCellEvent);
+    }
+}
 
 
 function gameOver() {
