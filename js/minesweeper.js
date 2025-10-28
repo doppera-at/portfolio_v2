@@ -1,4 +1,5 @@
 import { Logger } from "./logger.js"
+var logger = new Logger("main", Logger.LOG_LEVELS.FINEST);
 
 class Cell {
     index = -1;
@@ -22,7 +23,6 @@ class Cell {
     }
 }
 
-var logger = new Logger("main", Logger.LOG_LEVELS.DEBUG);
 logger.info(`Inizialization of game started. Defining constants and resetting variables.`);
 
 const DIFFICULTIES = Object.freeze({
@@ -79,13 +79,9 @@ function initializeGameBoard() {
 
     gameBoard = [];
     numCells = difficulty.numRows * difficulty.numCols;
-    for (let row = 0; row < difficulty.numRows; row++) {
-        gameBoard[row] = [];
-        for (let col = 0; col < difficulty.numCols; col++) {
-            let cell = new Cell(convertRowCol(row, col));
-            gameBoard[row].push(cell);
-            log.finer(`Added cell to gameBoard: ${JSON.stringify(cell)}`);
-        }
+    for (let i = 0; i < numCells; i++) {
+        gameBoard.push(new Cell(i));
+        log.fine(`Added cell to game board: ${JSON.stringify(gameBoard.at(-1))}`);
     }
     log.debug(`Created ${gameBoard.length} cells on the game board`);
 
@@ -93,9 +89,9 @@ function initializeGameBoard() {
     while (minesPlaced.length < difficulty.numMines) {
         let index = Math.trunc(Math.random() * numCells);
         if (minesPlaced.includes(index)) continue;
-        let [row, col] = convertIndex(index);
-        log.fine(`Trying to make cell at ${row}, ${col} a mine.`);
-        let cell = gameBoard[row][col];
+
+        log.fine(`Making cell ${index} a mine.`);
+        let cell = gameBoard[index];
         log.finer(`Cell at index ${index}:\n${JSON.stringify(cell)}`);
         if (cell.hasMine) continue;
     
@@ -104,32 +100,36 @@ function initializeGameBoard() {
     }
     log.info(`Placed ${minesPlaced.length} mines on the board.`);
 
-    for (let i = 0; i < numCells; i++) {
-        let [row, col] = convertIndex(i);
-        let cell = gameBoard[row][col];
-        log.fine(`Checking cell ${i}`);
+    for (let index = 0; index < numCells; index++) {
+        let cell = gameBoard[index];
 
         if (cell.hasMine) continue;
+        log.fine(`Cell ${index} has no mine. Calculating mine count.`);
 
-        for (let dRow = -1; dRow <= 1; dRow++) {
+        for (let dRow = index - difficulty.numCols; dRow <= index + difficulty.numRows; dRow += difficulty.numRows) {
             for (let dCol = -1; dCol <= 1; dCol++) {
-                let rowDelta = row + dRow;
-                let colDelta = col + dCol;
-                if (rowDelta < 0 || rowDelta >= difficulty.numRows) {
-                    log.finest(`Row ${rowDelta} is out of bounds!`);
+                let dIndex = dRow + dCol;
+                log.finer(`Checking index: ${dIndex}`);
+                if (dIndex < 0 || dIndex >= numCells) {
+                    log.finest(`   Index is out of bounds!`);
                     continue;
-                } else if (colDelta < 0 || colDelta >= difficulty.numCols) {
-                    log.finest(`Col ${colDelta} is out of bounds!`);
+                }
+                if (cell.index % difficulty.numCols == 0 && dIndex % difficulty.numCols > 1) {
+                    log.finest(`   Cell at ${index} is at the left edge, but index ${dIndex} is on the right edge!`);
+                    continue;
+                }
+                if (cell.index % difficulty.numCols == difficulty.numCols && dIndex % difficulty.numCols == 0) {
+                    log.finest(`   Cell at ${index} is at the right edge, but index ${dIndex} is on the left edge!`);
                     continue;
                 }
 
-                log.finer(`Checking cell at row ${rowDelta}, col ${colDelta}`)
-                if (gameBoard[rowDelta][colDelta].hasMine) {
+                if (gameBoard[dIndex].hasMine) {
+                    log.finest(`   Found a mine at index ${dIndex}.`);
                     cell.numMinesAround++;
                 }
             }
         }
-        log.fine(`Cell ${cell.index} has ${cell.numMinesAround} mines around it.`);
+        log.debug(`Cell ${index} has ${cell.numMinesAround} mines around it.`);
     }
     log.info(`Calculated mineCount for each cell without a mine.`);
 
@@ -153,7 +153,7 @@ function renderGameBoard() {
         gridRows += " 3rem";
     }
     divGameBoard.style.gridTemplateRows = gridRows;
-    for(let i = 0; i < difficulty.numRows * difficulty.numCols; i++) {
+    for(let i = 0; i < numCells; i++) {
         let divCell = document.createElement("div");
         divCell.id = "div-" + i;
         divCell.name = i;
@@ -202,14 +202,12 @@ function resetControlPanel() {
 
 
 function revealCellEvent(event) {
-    let [row, col] = convertIndex(event.target.name);
-    revealCell(row, col);
+    revealCell(event.target.name);
 }
-function revealCell(row, col) {
+function revealCell(index) {
     let log = logger.createSubLogger("revealCell");
-    log.info(`Revealing cell at row ${row}, col ${col}.`);
 
-    let cell = gameBoard[row][col];
+    let cell = gameBoard[index];
     if (!cell) {
         log.error(`Unable to get cell at row ${row}, col ${col}. Out of bounds?`);
         return;
@@ -221,10 +219,11 @@ function revealCell(row, col) {
         return;
     }
 
+    log.info(`Revealing cell ${index}.`);
     cell.revealed = true;
     cellsRevealed++;
     if (cell.numMinesAround == 0) {
-        for (let dRow = -1; dRow <= 1; dRow++) {
+        for (let dRow = i - difficulty.numCols; dRow <= i + difficulty.numRows; dRow += difficulty.numRows) {
             for (let dCol = -1; dCol <= 1; dCol++) {
             }
         }
@@ -268,17 +267,6 @@ function gameOver() {
 }
 
 
-
-
-
-function convertIndex(index) {
-    let row = Math.trunc(index / difficulty.numCols);
-    let col = index % difficulty.numCols;
-    return [row, col];
-}
-function convertRowCol(row, col) {
-    return row * difficulty.numCols + col;
-}
 
 
 startGame();
