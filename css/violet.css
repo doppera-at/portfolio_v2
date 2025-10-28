@@ -247,19 +247,21 @@ main article img {
     grid-template-columns: auto auto;
 }
 #game-board div {
-    background-color: darkviolet;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0.2rem;
+    margin: 0.12rem;
     border: 1px solid var(--line);
 }
 #game-board div:hover {
-    background-color: violet;
+    background-color: var(--heading-shadow);
     cursor: pointer; 
 }
 #game-board div.revealed {
     cursor: default;
+}
+#game-board div.mine {
+    background-color: red;
 }
 
 /*

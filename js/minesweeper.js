@@ -159,12 +159,12 @@ function renderGameBoard() {
     divGameBoard.innerHTML = "";
     let gridColumns = "";
     for (let i = 0; i < difficulty.numCols; i++) {
-        gridColumns += " 3rem";
+        gridColumns += " 2rem";
     }
     divGameBoard.style.gridTemplateColumns = gridColumns;
     let gridRows = "";
     for (let i = 0; i < difficulty.numRows; i++) {
-        gridRows += " 3rem";
+        gridRows += " 2rem";
     }
     divGameBoard.style.gridTemplateRows = gridRows;
     for(let i = 0; i < numCells; i++) {
@@ -246,6 +246,7 @@ function revealCell(index) {
     divCell.innerText = cell.getSymbol();
 
     if (cell.hasMine) {
+        divCell.classList.add("mine");
         clickedOnMine = true;
         gameOver();
     } else if (cellsRevealed >= numCells - difficulty.numMines) {
@@ -325,11 +326,6 @@ function gameOver() {
 
     let divs = divGameBoard.children;
     log.debug(divs);
-    for (let i = 0; i < divs.length; i++) {
-        let div = divs[i];
-        log.finest(`Removing event listener from div: ${div.name}`);
-        div.removeEventListener("click", revealCellEvent);
-    }
 
     if (clickedOnMine) {
         log.info(`Clicked on a mine! Game is over!`);
@@ -339,6 +335,16 @@ function gameOver() {
         log.info(`No mistake made! Congratulations!`);
         divStatusBar.style.backgroundColor = "green";
         divStatusBar.innerText = "You made it through the minefield! You Won! :D";
+    }
+
+    for (let i = 0; i < numCells; i++) {
+        let cell = gameBoard[i];
+        if (cell.flagged && cell.hasMine) {
+            cell.flagged = false;
+        }
+        if (cell.hasMine && !cell.revealed) {
+            revealCell(i);
+        }
     }
 }
 
