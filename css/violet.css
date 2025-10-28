@@ -4,7 +4,6 @@
 :root {
     --text: #000;
     --background: #ead4f1;
-    --background-noscript: red;
     --heading: #3c096c;
     --heading-shadow: #ceafe8;
     --line: var(--heading);
@@ -15,24 +14,31 @@
     --link-footer: var(--heading-shadow);
     --link-footer-hover: var(--link);
 
+    --noscript-background: red;
+    --noscript-line: #570808;
+
     --button-background: #666;
     --button-foreground: #f9f9f9;
+
+    --form-input-background: #fff;
 }
 .dark-mode {
     --text: #fff;
     --background: #160327;
     --heading: #bd76ff;
-    --heading-shadow: #391d51;
+    --heading-shadow: #3b264d;
     --line: var(--heading);
     --footer: var(--heading-shadow);
 
     --link: #efef1e;
-    --link-hover: #9f9f20;
+    --link-hover: #c9b60c;
     --link-footer: var(--link);
     --link-footer-hover: var(--link-hover);
 
-    --background-noscript: #881111;
-    --line-noscript: #570808;
+    --noscript-backgorund: #881111;
+    --noscript-line: #570808;
+
+    --form-input-background: #2a054b;
 }
 
 
@@ -90,9 +96,6 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
 }
-.spacer {
-    margin: 2% 0;
-}
 
 
 /* 
@@ -102,8 +105,9 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     top: 1%;
     right: 1%;
-    box-shadow: 5px 8px 5px var(--heading-shadow);
+    box-shadow: 5px 7px 5px var(--heading-shadow);
     border: 1px solid var(--line);
+    border-radius: 3%;
 }
 .content-image {
     position: absolute;
@@ -135,6 +139,12 @@ header h1[lang=ja] {
 }
 header h2 {
     margin-top: -3em;
+}
+header a:link,
+header a:hover,
+header a:visited,
+header a:active {
+    color: var(--heading)
 }
 
 
@@ -169,23 +179,136 @@ nav {
 /* 
     ### MAIN CONTENT 
 */
+main {
+    margin-top: 2.5rem;
+}
 main article {
     margin: 0;
     padding: 2% 6%;
     margin-right: 15%;
     border-top: 1px solid var(--line);
+    position: relative;
 }
 main article:nth-of-type(2n) {
     margin-right: 0;
     margin-left: 15%;
+}
+main article h2[lang=de],
+main article h2[lang=en] {
+    font-weight: bold;
+
+    position: relative;
+    top: -2.8rem;
+    left: 2rem;
+}
+main article h2[lang=ja] {
+    color: var(--heading-shadow);
+    font-size: 3rem;
+    font-weight: bold;
+}
+main article h3 {
+    padding-left: 4rem;
+}
+main article img {
+    height: 100px;
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    border: 1px solid var(--line);
+    border-radius: 3%;
+    box-shadow: 2px 4px 2px var(--heading-shadow);
+}
+
+
+/*
+    ### PROJECT SPECIFIC
+*/
+.project-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.project-info div {
+    margin: 0px 5px;
+    padding: 5px 20px;
+    background-color: hotpink;
+}
+.project-content {
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#game-board {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#game-board div {
+    background-color: darkviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem;
+    border: 1px solid var(--line);
+}
+#game-board div:hover {
+    background-color: violet;
+    cursor: pointer; 
+}
+#game-board div.revealed {
+    cursor: default;
+}
+
+/*
+    ### TEXT FORMATS
+*/
+span.name {
+    color: var(--heading);
+}
+span.name::before,
+span.name::after {
+    content: "'";
+}
+
+
+/*
+    ### FORMS
+*/
+form {
+    margin-bottom: 3rem;
+    padding: 0.5rem;
+}
+form fieldset {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--line);
+}
+form fieldset input,
+form fieldset textarea {
+    margin-bottom: 0.5rem;
+    border: 1px solid var(--line);
+    width: 80%;
+    color: var(--text);
+    background-color: var(--form-input-background);
+}
+form button {
+    margin: 1rem;
+    padding: 0.3rem;
+    color: var(--text);
+    background-color: var(--form-input-background);
 }
 
 
 /* 
     ### FOOTER
 */
-
 footer {
+    font-size: 0.8rem;
     background-color: var(--footer);
     border-top: 1px solid var(--line);
 }
@@ -203,9 +326,9 @@ footer a:hover {
 #noscript {
     padding: 1rem 0;
     font-size: 1.0rem;
-    background-color: var(--background-noscript);
-    border-bottom: 1px solid var(--line-noscript);
-    border-top: 1px solid var(--line-noscript);
+    background-color: var(--noscript-backgorund);
+    border-bottom: 1px solid var(--noscript-line);
+    border-top: 1px solid var(--noscript-line);
 }
 #noscript h2 {
     color: var(--text);
@@ -224,6 +347,9 @@ footer a:hover {
 
     main article:nth-of-type(2n) {
         margin-left: 0;
+    }
+    main article img {
+        display: none;
     }
 
     .content-image {

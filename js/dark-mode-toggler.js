@@ -9,6 +9,8 @@ if (localStorageTheme == "dark") {
     toggleLightMode()
 } else {
     localStorage.setItem("theme", darkSchemePreferred ? "dark" : "light")
+    if (darkSchemePreferred) toggleDarkMode()
+    else toggleLightMode()
 }
 
 
@@ -19,11 +21,11 @@ function toggleTheme() {
 
 function toggleLightMode() {
     document.body.classList.remove("dark-mode")
-    document.getElementById("toggle-dark-mode").innerText = "Dark Mode"
+    document.getElementById("toggle-dark-mode").innerText = "Theme: ☾"
     localStorage.setItem("theme", "light")
 }
 function toggleDarkMode() {
     document.body.classList.add("dark-mode")
-    document.getElementById("toggle-dark-mode").innerText = "Light Mode"
+    document.getElementById("toggle-dark-mode").innerText = "Theme: ☀"
     localStorage.setItem("theme", "dark")
 }

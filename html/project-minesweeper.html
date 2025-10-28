@@ -12,13 +12,12 @@
 <body class="dvw-100 m-0 p-0">
     <div class="container-fluid m-0 p-0">
 
-
         <header>
             <div class="row">
                 <div class="col-md-12">
                     <div class="jumbotron h-100 w-100 p-3 d-flex flex-column align-items-center justify-content-end">
                         <h1 class="display-1 fw-bold" lang="ja">ドッペラ</h1>
-                        <h1 class="display-1 fw-bold" lang="de">DOPPERA</h1>
+                        <h1 class="display-1 fw-bold" lang="de"><a href="index.html">DOPPERA</a></h1>
                         <h2 class="fw-semibold">Portfolio eines angehenden Entwicklers</h2>
                     </div>
                 </div>
@@ -31,22 +30,22 @@
                 <div class="col-md-12 d-flex justify-content-center">
                     <ul class="nav nav-pills">
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Über mich</a>
+                            <a href="about-me.html" class="nav-link">Über mich</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-offset="5,10" href="#" role="button" aria-expanded="false">Programmieren</a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="#" class="dropdown-item">Vim Motions</a>
+                                    <a href="coding-vim.html" class="dropdown-item">Vim-Motions</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item">Rust</a>
+                                    <a href="coding-rust.html" class="dropdown-item">Rust</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item">Java</a>
+                                    <a href="coding-python.html" class="dropdown-item">Python</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item">Nu wos</a>
+                                    <a href="coding-projects.html" class="dropdown-item">Projekte</a>
                                 </li>
                             </ul>
                         </li>
@@ -54,21 +53,29 @@
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-offset="5,10" href="#" role="button" aria-expanded="false">Japanisch</a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="#" class="dropdown-item">Geschichte</a>
+                                    <a href="nihongo-history.html" class="dropdown-item">Geschichte</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item">Hiragana/<br>&nbsp;&nbsp;&nbsp;Katakana</a>
+                                    <a href="nihongo-writing-systems.html" class="dropdown-item">Hiragana/<br>&nbsp;&nbsp;&nbsp;Katakana</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item">Kanji</a>
+                                    <a href="nihongo-kanji.html" class="dropdown-item">Kanji</a>
                                 </li>
                                 <li>
-                                    <a href="#" class="dropdown-item">Alphabet-Trainer</a>
+                                    <a href="nihongo-trainer.html" class="dropdown-item">Alphabet-Trainer</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Kunst</a>
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-offset="5,10" href="#" role="button" aria-expanded="false">Kunst</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="art-drawing.html" class="dropdown-item">Zeichnen/Malen</a>
+                                </li>
+                                <li>
+                                    <a href="art-photography.html" class="dropdown-item">Fotografie</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
@@ -93,22 +100,27 @@
 
 
         <main>
-            <div class="row">
-                <div class="col-md-12">
-                    <article>
-                        <h2 lang="ja"></h2>
-                        <h2>Über mich</h2>
-                        <p>こんにちは! Mein Name ist Bernhard Doppler, ich bin <span id="age">37</span> Jahre alt und aktuell auf dem Weg, mein langjähriges Interesse für Programmierung in eine berufliche Laufbahn zu verwandeln.</p>
-                    </article>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
 
-                    <article>
-                        <h2>Portfolio</h2>
-                        <p>Diese Seite dient als mein Portfolio, das mich während der Ausbildung begleitet und mit Inhalten gefüllt wird, die in oder neben den Kursen entstehen. Neben Webprojekten wie Minesweeper und Memory finden sich hier auch kleinere Projekte in Java, Python und Rust.</p>
-                    </article>
+                    <h2>MineSweeper</h2>
+                    <p>Dies ist eine simple Implementierung von MineSweeper.</p>
 
                 </div>
             </div>
 
+            <div class="row justify-content-center">
+                <div class="col-md-12 project-info">
+                    <div id="game-status">Status</div>
+                    <div id="game-control">Controls</div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-md-12 project-content">
+                    <div id="game-board">GameBoard</div>
+                </div>
+            </div>
         </main>
 
 
@@ -137,17 +149,18 @@
 
 
     <div class="content-image">
-        <img src="../images/bewerbungsfoto-circle-nobg.png" alt="Bild von mir" class="h-25 rounded-circle border border-primary">
+        <img src="../images/minesweeper.png" alt="Bild von mir" class="h-25 rounded-circle border border-primary">
     </div>
     <div class="controls m-2 p-2">
         <div class="control-item"><a href="#" onclick="toggleTheme(this)" id="toggle-dark-mode">Theme: </a></div>
-        <div class="control-item"><a href="#">Language</a></div>
-        <div class="control-item"><a href="#">Designs</a>
+        <!-- <div class="control-item"><a href="#">Language</a></div> -->
+        <div class="control-item"><a href="designs.html">Designs</a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
     <script src="../js/dark-mode-toggler.js"></script>
+    <script src="../js/minesweeper.js" type="module"></script>
 
 </body>
 </html>
