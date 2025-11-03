@@ -39,6 +39,9 @@
     --noscript-line: #570808;
 
     --form-input-background: #2a054b;
+
+    --table-background: #2f0950;
+    --table-second-row: #3a0d61;
 }
 
 
@@ -303,6 +306,40 @@ form button {
     padding: 0.3rem;
     color: var(--text);
     background-color: var(--form-input-background);
+}
+
+
+table {
+    border-collapse: collapse;
+}
+table tr {
+    background-color: var(--table-background);
+    height: 0.8rem;
+}
+table tr:nth-of-type(2n) {
+    background-color: var(--table-second-row);
+}
+table tr td, table tr th {
+    border: 1px solid var(--line);
+    padding: 0.8rem;
+}
+table tr td {
+    text-align: center;
+    vertical-align: center;
+    font-size: 2rem;
+}
+table tr th {
+    text-align: center;
+    vertical-align: center;
+    font-size: 1.3rem;
+}
+table .empty {
+    border: none; 
+    background-color: var(--background);
+}
+.nihongo-table {
+    width: 100%;
+    background-color: hotpink;
 }
 
 
