@@ -21,6 +21,9 @@
     --button-foreground: #f9f9f9;
 
     --form-input-background: #fff;
+
+    --table-background: #ddb8e9;
+    --table-second-row: #dea8ee;
 }
 .dark-mode {
     --text: #fff;
@@ -311,6 +314,7 @@ form button {
 
 table {
     border-collapse: collapse;
+    margin-bottom: 2rem;
 }
 table tr {
     background-color: var(--table-background);
@@ -326,7 +330,8 @@ table tr td, table tr th {
 table tr td {
     text-align: center;
     vertical-align: center;
-    font-size: 2rem;
+    font-size: 1.7rem;
+    width: fit-content;
 }
 table tr th {
     text-align: center;
@@ -339,7 +344,9 @@ table .empty {
 }
 .nihongo-table {
     width: 100%;
-    background-color: hotpink;
+    /* background-color: hotpink; */
+    /* display: flex;
+    justify-content: center; */
 }
 
 
