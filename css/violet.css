@@ -7,12 +7,12 @@
     --heading: #3c096c;
     --heading-shadow: #ceafe8;
     --line: var(--heading);
-    --footer: var(--heading);
+    --footer: var(--heading-shadow);
 
     --link: #8e27ee;
     --link-hover: #6213ac;
-    --link-footer: var(--heading-shadow);
-    --link-footer-hover: var(--link);
+    --link-footer: var(--link);
+    --link-footer-hover: var(--link-hover);
 
     --noscript-background: red;
     --noscript-line: #570808;
@@ -193,7 +193,7 @@ main {
     margin-top: 2.5rem;
 }
 main article {
-    margin: 0;
+    margin: 0 0 4rem 0;
     padding: 2% 6%;
     margin-right: 15%;
     border-top: 1px solid var(--line);
