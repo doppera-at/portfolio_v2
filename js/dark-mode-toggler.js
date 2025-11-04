@@ -21,11 +21,11 @@ function toggleTheme() {
 
 function toggleLightMode() {
     document.body.classList.remove("dark-mode")
-    document.getElementById("toggle-dark-mode").innerText = "Theme: ☾"
+    document.getElementById("toggle-dark-mode").innerText = "Switch Theme: ☾"
     localStorage.setItem("theme", "light")
 }
 function toggleDarkMode() {
     document.body.classList.add("dark-mode")
-    document.getElementById("toggle-dark-mode").innerText = "Theme: ☀"
+    document.getElementById("toggle-dark-mode").innerText = "Switch Theme: ☀"
     localStorage.setItem("theme", "dark")
 }
