@@ -331,12 +331,6 @@ table tr td, table tr th {
     border: 1px solid var(--line);
     padding: 0.8rem;
 }
-table tr td {
-    text-align: center;
-    vertical-align: center;
-    font-size: 1.7rem;
-    width: fit-content;
-}
 table tr th {
     text-align: center;
     vertical-align: center;
@@ -346,11 +340,29 @@ table .empty {
     border: none; 
     background-color: var(--background);
 }
-.nihongo-table {
+table.alphabet {
     width: 100%;
     /* background-color: hotpink; */
     /* display: flex;
     justify-content: center; */
+}
+table.alphabet td {
+    text-align: center;
+    vertical-align: center;
+    font-size: 1.7rem;
+    width: fit-content;
+}
+table.kanji td{
+    vertical-align: top;
+}
+table.kanji td[lang=ja] {
+    text-align: center;
+    vertical-align: center;
+    font-size: 4rem;
+}
+table.kanji td.meaning {
+    text-align: center;
+    vertical-align: center;
 }
 
 
