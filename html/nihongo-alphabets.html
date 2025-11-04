@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doppera.at - Portfolio eines angehenden Entwicklers</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="../js/jquery-3.7.1.min.js"></script>
 
     <link rel="stylesheet" href="../css/violet.css">
 
@@ -14,76 +15,10 @@
 
 
         <header>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="jumbotron h-100 w-100 p-3 d-flex flex-column align-items-center justify-content-end">
-                        <h1 class="display-1 fw-bold" lang="ja">ドッペラ</h1>
-                        <h1 class="display-1 fw-bold" lang="de">DOPPERA</h1>
-                        <h2 class="fw-semibold">Portfolio eines angehenden Entwicklers</h2>
-                    </div>
-                </div>
-            </div>
         </header>
 
 
         <nav>
-            <div class="row">
-                <div class="col-md-12 d-flex justify-content-center">
-                    <ul class="nav nav-pills">
-                        <li class="nav-item">
-                            <a href="about-me.html" class="nav-link">Über mich</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-offset="5,10" href="#" role="button" aria-expanded="false">Programmieren</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="coding-vim.html" class="dropdown-item">Vim-Motions</a>
-                                </li>
-                                <li>
-                                    <a href="coding-rust.html" class="dropdown-item">Rust</a>
-                                </li>
-                                <li>
-                                    <a href="coding-python.html" class="dropdown-item">Python</a>
-                                </li>
-                                <li>
-                                    <a href="coding-projects.html" class="dropdown-item">Projekte</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-offset="5,10" href="#" role="button" aria-expanded="false">Japanisch</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="nihongo-general.html" class="dropdown-item">Allgemeines</a>
-                                </li>
-                                <li>
-                                    <a href="nihongo-alphabets.html" class="dropdown-item">Hiragana/<br>&nbsp;&nbsp;&nbsp;Katakana</a>
-                                </li>
-                                <li>
-                                    <a href="nihongo-kanji.html" class="dropdown-item">Kanji</a>
-                                </li>
-                                <li>
-                                    <a href="nihongo-trainer.html" class="dropdown-item">Alphabet-Trainer</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" data-bs-offset="5,10" href="#" role="button" aria-expanded="false">Kunst</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="art-drawing.html" class="dropdown-item">Zeichnen/Malen</a>
-                                </li>
-                                <li>
-                                    <a href="art-photography.html" class="dropdown-item">Fotografie</a>
-                                </li>
-                                <li>
-                                    <a href="art-poetry.html" class="dropdown-item">Gedichte</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
         </nav>
 
 
@@ -460,24 +395,6 @@
 
 
         <footer>
-            <div class="row footer">
-                <div class="col-md-12">
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a href="mailto:b.doppler@doppera.at" class="nav-link">&copy; 2025 by Bernhard Doppler</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="imprint.html" class="nav-link">Impressum</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="data-complience.html" class="nav-link">Datenschutz</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="contact.html" class="nav-link">Kontakt</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
         </footer>
 
     </div>
@@ -488,13 +405,12 @@
     </div>
     <div class="controls m-2 p-2">
         <div class="control-item"><a href="#" onclick="toggleTheme(this)" id="toggle-dark-mode">Theme: </a></div>
-        <div class="control-item"><a href="#">Language</a></div>
-        <div class="control-item"><a href="#">Designs</a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
     <script src="../js/dark-mode-toggler.js"></script>
+    <script src="../js/load-components.js"></script>
 
 </body>
 </html>
