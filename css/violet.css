@@ -228,6 +228,12 @@ main article img {
     border-radius: 3%;
     box-shadow: 2px 4px 2px var(--heading-shadow);
 }
+main li {
+    margin-left: 10%;
+    margin-bottom: 0.3rem;
+    text-indent: -5%;
+    list-style-position: inside;
+}
 
 
 /*
