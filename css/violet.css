@@ -370,6 +370,9 @@ table.kanji td.meaning {
     text-align: center;
     vertical-align: center;
 }
+#kanji-table tr.darker td {
+    background-color: hotpink;
+}
 
 
 /* 
