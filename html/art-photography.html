@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doppera.at - Portfolio eines angehenden Entwicklers</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+
+    <link rel="stylesheet" href="../css/color-definitions.css">
+    <link rel="stylesheet" href="../css/violet.css">
+    <link rel="stylesheet" href="../css/photo-gallery.css">
+
+</head>
+<body class="dvw-100 m-0 p-0">
+    <div class="container-fluid m-0 p-0">
+
+
+        <header>
+        </header>
+
+
+        <nav>
+        </nav>
+
+
+        <noscript>
+            <div class="row">
+                <div class="col-md-12 text-center" id="noscript">
+                    <h2>JavaScript ist deaktiviert</h2>
+                    <p>Einige Funktionen auf dieser Seite sind mit JavaScript geschrieben und funktionieren dadurch nicht.<br>Bitte aktivieren Sie JavaScript um diese Seite in vollem Umfang nutzen zu können.</p>
+                </div>
+            </div>
+        </noscript>
+        <!-- <div class="row">
+            <div class="col-md-12 spacer">&nbsp;</div>
+        </div> -->
+
+
+        <main>
+            <div class="row justify-content-center">
+                <div class="col-md-12 centered">
+
+                    <div id="photo-controls">
+                        <button type="button" name="first" onclick="switchToFirstPhoto()">First</button>
+                        <button type="button" name="previous" onclick="switchToPrevPhoto()">Previous</button>
+                        <button type="button" name="next" onclick="switchToNextPhoto()">Next</button>
+                        <button type="button" name="last" onclick="switchToLastPhoto()">Last</button>
+                    </div>
+                    <div id="photo-gallery">
+                        <div id="photo-container">
+                            <img src="../images/photos/20170805_203545.jpg" alt="Description" id="photo">
+                        </div>
+                        <div id="photo-info">
+                            <ul>
+                                <li>Camera Make</li>
+                                <li>Camera Model</li>
+                                <li>Lens Info</li>
+                                <li>Image width</li>
+                                <li>Image height</li>
+                                <li>ISO</li>
+                                <li>Focal length</li>
+                                <li>FNumber</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+        <div class="row">
+            <div class="col-md-12 spacer">&nbsp;</div>
+        </div>
+
+        <footer>
+        </footer>
+
+    </div>
+
+
+    <div class="content-image">
+        <img src="../images/writing_letter_small.jpg" alt="Bild eines handschriftlichen Briefes mit Füllfeder" class="h-25 rounded-circle border border-primary">
+    </div>
+    <div class="controls m-2 p-2">
+        <div class="control-item"><a href="#" onclick="toggleTheme(this)" id="toggle-dark-mode"></a></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script src="../js/photos-switcher.js" type="module"></script>
+    <script src="../js/dark-mode-toggler.js" type="module"></script>
+    <script src="../js/load-components.js" type="module"></script>
+
+</body>
+</html>
