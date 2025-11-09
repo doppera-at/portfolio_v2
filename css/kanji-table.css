@@ -1,0 +1,24 @@
+#kanji-table {
+    border-collapse: collapse;
+}
+#kanji-table td, #kanji-table th {
+    height: 1.5rem;
+    border: 1px solid var(--line);
+    padding: 0.3rem;
+    text-align: left;
+    vertical-align: top;
+    background-color: var(--table-background);
+}
+#kanji-table td[lang=ja] {
+    text-align: center;
+    vertical-align: center;
+    font-size: 4rem;
+}
+#kanji-table td.meaning {
+    text-align: center;
+    vertical-align: center;
+}
+#kanji-table tr.spacer td {
+    background-color: var(--background);
+    border: none;
+}

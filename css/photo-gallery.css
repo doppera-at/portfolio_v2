@@ -1,0 +1,38 @@
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#photo-gallery {
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+#photo-container {
+    width: 60%;
+    text-align: right;
+}
+#photo {
+    width: 60%;
+}
+#photo-info {
+    width: 40%;
+}
+#photo-info ul li {
+    margin: 0;
+    text-indent: 0;
+    list-style-position: unset;
+}
+
+#photo-controls {
+    margin: 1rem 0;
+    width: 50%;
+    text-align: center;
+}
+#photo-controls button {
+    padding: 0.5rem 1rem;
+}

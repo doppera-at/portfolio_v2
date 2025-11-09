@@ -1,54 +1,4 @@
 /* 
-    ### COLOR DEFINITIONS 
-*/
-:root {
-    --text: #000;
-    --background: #ead4f1;
-    --heading: #3c096c;
-    --heading-shadow: #ceafe8;
-    --line: var(--heading);
-    --footer: var(--heading-shadow);
-
-    --link: #8e27ee;
-    --link-hover: #6213ac;
-    --link-footer: var(--link);
-    --link-footer-hover: var(--link-hover);
-
-    --noscript-background: red;
-    --noscript-line: #570808;
-
-    --button-background: #666;
-    --button-foreground: #f9f9f9;
-
-    --form-input-background: #fff;
-
-    --table-background: #ddb8e9;
-    --table-second-row: #dea8ee;
-}
-.dark-mode {
-    --text: #fff;
-    --background: #160327;
-    --heading: #bd76ff;
-    --heading-shadow: #3b264d;
-    --line: var(--heading);
-    --footer: var(--heading-shadow);
-
-    --link: #efef1e;
-    --link-hover: #c9b60c;
-    --link-footer: var(--link);
-    --link-footer-hover: var(--link-hover);
-
-    --noscript-backgorund: #881111;
-    --noscript-line: #570808;
-
-    --form-input-background: #2a054b;
-
-    --table-background: #2f0950;
-    --table-second-row: #3a0d61;
-}
-
-
-/* 
     ### FONT DEFINITIONS
 */
 * {
@@ -322,7 +272,7 @@ form button {
 }
 
 
-table {
+/* table {
     border-collapse: collapse;
     margin-bottom: 2rem;
 }
@@ -345,7 +295,7 @@ table tr th {
 table .empty {
     border: none; 
     background-color: var(--background);
-}
+} */
 table.alphabet {
     width: 100%;
     /* background-color: hotpink; */
@@ -357,21 +307,6 @@ table.alphabet td {
     vertical-align: center;
     font-size: 1.7rem;
     width: fit-content;
-}
-table.kanji td{
-    vertical-align: top;
-}
-table.kanji td[lang=ja] {
-    text-align: center;
-    vertical-align: center;
-    font-size: 4rem;
-}
-table.kanji td.meaning {
-    text-align: center;
-    vertical-align: center;
-}
-#kanji-table tr.darker td {
-    background-color: hotpink;
 }
 
 
