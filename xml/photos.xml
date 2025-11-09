@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="photos.xsd"?>
+<photos xmlns="http://doppera.at/photos.xsd">
+  <photo>
+    <fileName>DSC00692.JPG</fileName>
+    <dateTime>2023:10:18 01:39:55</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>5000</iso>
+    <focalLength>16.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.03333333333333333</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01452.JPG</fileName>
+    <dateTime>2023:12:29 02:09:55</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>400</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.025</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00774.JPG</fileName>
+    <dateTime>2023:11:04 13:08:00</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>200</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.003125</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00719.JPG</fileName>
+    <dateTime>2023:10:23 18:00:50</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>400</iso>
+    <focalLength>27.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.04</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01868.JPG</fileName>
+    <dateTime>2024:01:21 23:14:08</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.004</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00922.JPG</fileName>
+    <dateTime>2023:11:04 14:13:20</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>35.0</focalLength>
+    <fNumber>14.0</fNumber>
+    <exposureTime>0.01</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01601.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>800</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.03333333333333333</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01679.JPG</fileName>
+    <dateTime>2024:01:07 14:08:07</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>2000</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.016666666666666666</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00094.JPG</fileName>
+    <dateTime>2023:10:12 18:01:24</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>5000</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.0125</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00853.JPG</fileName>
+    <dateTime>2023:11:04 13:46:08</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>9.0</fNumber>
+    <exposureTime>0.01</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01137.JPG</fileName>
+    <dateTime>2023:12:18 14:47:17</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>3200</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>8.0</fNumber>
+    <exposureTime>0.002</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00085.JPG</fileName>
+    <dateTime>2023:10:12 17:54:18</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>200</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.0125</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00833.JPG</fileName>
+    <dateTime>2023:11:04 13:44:33</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>9.0</fNumber>
+    <exposureTime>0.01</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00869.JPG</fileName>
+    <dateTime>2023:11:04 13:47:44</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>9.0</fNumber>
+    <exposureTime>0.01</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00854.JPG</fileName>
+    <dateTime>2023:11:04 13:46:08</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>9.0</fNumber>
+    <exposureTime>0.01</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01244.JPG</fileName>
+    <dateTime>2023:12:23 18:44:11</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>200</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.00025</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00948.JPG</fileName>
+    <dateTime>2023:11:04 14:20:52</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>9.0</fNumber>
+    <exposureTime>0.01</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01446.JPG</fileName>
+    <dateTime>2023:12:29 01:50:36</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>160</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.0015625</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00861.JPG</fileName>
+    <dateTime>2023:11:04 13:46:43</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>36.0</focalLength>
+    <fNumber>9.0</fNumber>
+    <exposureTime>0.01</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00877.JPG</fileName>
+    <dateTime>2023:11:04 13:57:04</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>16.0</focalLength>
+    <fNumber>4.0</fNumber>
+    <exposureTime>0.01</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00838.JPG</fileName>
+    <dateTime>2023:11:04 13:45:54</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>9.0</fNumber>
+    <exposureTime>0.01</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01880.JPG</fileName>
+    <dateTime>2024:01:24 17:27:41</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.002</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00745.JPG</fileName>
+    <dateTime>2023:11:04 11:42:24</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>200</iso>
+    <focalLength>49.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.00625</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00664.JPG</fileName>
+    <dateTime>2023:10:18 01:23:17</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>6400</iso>
+    <focalLength>16.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.25</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00973.JPG</fileName>
+    <dateTime>2023:11:04 14:26:06</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 55-210mm F4.5-6.3 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>158.0</focalLength>
+    <fNumber>10.0</fNumber>
+    <exposureTime>0.01</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01152.JPG</fileName>
+    <dateTime>2023:12:18 15:05:18</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>3200</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>8.0</fNumber>
+    <exposureTime>0.003125</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00880.JPG</fileName>
+    <dateTime>2023:11:04 13:58:14</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>45.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.01</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01034.JPG</fileName>
+    <dateTime>2023:11:04 16:40:50</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.016666666666666666</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00674.JPG</fileName>
+    <dateTime>2023:10:18 01:37:03</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>400</iso>
+    <focalLength>16.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.03333333333333333</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01054.JPG</fileName>
+    <dateTime>2023:11:11 07:14:57</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.03333333333333333</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00255.JPG</fileName>
+    <dateTime>2023:10:14 20:43:45</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>4000</imageHeight>
+    <iso>6400</iso>
+    <focalLength>22.0</focalLength>
+    <fNumber>4.0</fNumber>
+    <exposureTime>0.05</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01036.JPG</fileName>
+    <dateTime>2023:11:04 16:41:31</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.016666666666666666</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01017.JPG</fileName>
+    <dateTime>2023:11:04 14:30:15</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 55-210mm F4.5-6.3 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>55.0</focalLength>
+    <fNumber>10.0</fNumber>
+    <exposureTime>0.01</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00712.JPG</fileName>
+    <dateTime>2023:10:23 17:49:29</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>500</iso>
+    <focalLength>16.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.03333333333333333</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00254.JPG</fileName>
+    <dateTime>2023:10:14 20:43:26</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>4000</imageHeight>
+    <iso>6400</iso>
+    <focalLength>22.0</focalLength>
+    <fNumber>4.0</fNumber>
+    <exposureTime>0.025</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01060.JPG</fileName>
+    <dateTime>2023:11:13 23:35:28</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>125</iso>
+    <focalLength>36.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.03333333333333333</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01443.JPG</fileName>
+    <dateTime>2023:12:29 01:25:10</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>160</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.04</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00098.JPG</fileName>
+    <dateTime>2023:10:12 18:06:28</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>2000</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.0125</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01063.JPG</fileName>
+    <dateTime>2023:11:13 23:36:32</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>125</iso>
+    <focalLength>21.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.03333333333333333</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01723.JPG</fileName>
+    <dateTime>2024:01:17 07:44:46</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>2000</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.00625</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01951.JPG</fileName>
+    <dateTime>2024:01:30 08:48:19</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>4.0</fNumber>
+    <exposureTime>0.005</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01134.JPG</fileName>
+    <dateTime>2023:12:18 09:59:45</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>3200</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>29.0</fNumber>
+    <exposureTime>0.00025</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00725.JPG</fileName>
+    <dateTime>2023:10:23 18:30:59</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>6400</iso>
+    <focalLength>35.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.05</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01597.JPG</fileName>
+    <dateTime>2024:01:03 01:16:32</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.016666666666666666</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01121.JPG</fileName>
+    <dateTime>2023:12:06 01:13:20</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>1250</iso>
+    <focalLength>16.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.05</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01066.JPG</fileName>
+    <dateTime>2023:11:13 23:38:04</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>125</iso>
+    <focalLength>27.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.03333333333333333</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01141.JPG</fileName>
+    <dateTime>2023:12:18 14:49:32</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>3200</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>8.0</fNumber>
+    <exposureTime>0.001</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01250.JPG</fileName>
+    <dateTime>2023:12:23 19:45:08</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>500</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.0005</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00754.JPG</fileName>
+    <dateTime>2023:11:04 12:48:51</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>16.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.00625</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00764.JPG</fileName>
+    <dateTime>2023:11:04 13:00:52</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>16.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.003125</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01025.JPG</fileName>
+    <dateTime>2023:11:04 16:24:39</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>160</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.016666666666666666</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01603.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>800</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.03333333333333333</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01976.JPG</fileName>
+    <dateTime>2024:02:06 10:57:53</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>1000</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>4.0</fNumber>
+    <exposureTime>0.008</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00889.JPG</fileName>
+    <dateTime>2023:11:04 14:05:12</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>14.0</fNumber>
+    <exposureTime>0.01</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01187.JPG</fileName>
+    <dateTime>2023:12:18 17:59:19</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.03333333333333333</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01514.JPG</fileName>
+    <dateTime>2023:12:31 04:04:47</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>800</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.016666666666666666</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01602.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>800</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.03333333333333333</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00076.JPG</fileName>
+    <dateTime>2023:10:12 17:44:08</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>500</iso>
+    <focalLength>28.0</focalLength>
+    <fNumber>4.5</fNumber>
+    <exposureTime>0.02</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01883.JPG</fileName>
+    <dateTime>2024:01:24 17:29:07</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.002</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00817.JPG</fileName>
+    <dateTime>2023:11:04 13:38:51</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.00125</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01885.JPG</fileName>
+    <dateTime>2024:01:24 17:29:55</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.002</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01107.JPG</fileName>
+    <dateTime>2023:12:02 20:17:04</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>200</iso>
+    <focalLength>22.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.05</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01062.JPG</fileName>
+    <dateTime>2023:11:13 23:35:44</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>125</iso>
+    <focalLength>36.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.03333333333333333</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00885.JPG</fileName>
+    <dateTime>2023:11:04 14:00:09</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>14.0</fNumber>
+    <exposureTime>0.01</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00805.JPG</fileName>
+    <dateTime>2023:11:04 13:35:54</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>44.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.00125</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01176.JPG</fileName>
+    <dateTime>2023:12:18 15:43:13</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.03333333333333333</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00750.JPG</fileName>
+    <dateTime>2023:11:04 12:04:43</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>34.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.00625</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01189.JPG</fileName>
+    <dateTime>2023:12:18 18:06:07</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>16.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.06666666666666667</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00990.JPG</fileName>
+    <dateTime>2023:11:04 14:28:48</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 55-210mm F4.5-6.3 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>210.0</focalLength>
+    <fNumber>10.0</fNumber>
+    <exposureTime>0.01</exposureTime>
+  </photo>
+</photos>

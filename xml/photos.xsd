@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://doppera.at/photos.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://doppera.at/photos.xsd"
+    xmlns:mstns="http://doppera.at/photos.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+
+    <xs:element name="photos">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="photo" type="photoType" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="photoType">
+        <xs:sequence>
+            <xs:element name="fileName" type="xs:string"/>
+            <xs:element name="dateTime" type="xs:string"/>
+            <xs:element name="cameraMake" type="xs:string"/>
+            <xs:element name="cameraModel" type="xs:string"/>
+            <xs:element name="lensModel" type="xs:string" minOccurs="0"/>
+            <xs:element name="imageWidth" type="xs:string"/>
+            <xs:element name="imageHeight" type="xs:string"/>
+            <xs:element name="iso" type="xs:string"/>
+            <xs:element name="focalLength" type="xs:string"/>
+            <xs:element name="fNumber" type="xs:string"/>
+            <xs:element name="exposureTime" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+
+</xs:schema>

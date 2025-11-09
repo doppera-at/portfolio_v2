@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="kanji-list.xslt"?>
+<?xml-model href="kanji-list.xsd"?>
+<kanji-list xmlns="http://doppera.at/kanji-list.xsd">
+    <kanji>
+        <character>水</character>
+        <meaning>Wasser</meaning>
+        <kunyomi>みず</kunyomi>
+        <onyomi>すい</onyomi>
+        <description>
+            Für das Zeichen für Wasser existieren nur eher dürftige Eselsbrücken. Eine der Besseren ist das Sehen eines 
+            Wasserfalls (der mittlere Strich), wo durch den Fall links und rechts Wassertropfen wegspritzen.
+        </description>
+    </kanji>
+    <kanji>
+        <character>火</character>
+        <meaning>Feuer</meaning>
+        <kunyomi>ひ</kunyomi>
+        <onyomi>か</onyomi>
+        <description>
+            Das Zeichen für Feuer widerrum hat eine sehr starke Ähnlichkeit zu einem brennenden Lagerfeuer mit kleinen 
+            Flammenspitzen die seitlich in die Höhe gehen.
+        </description>
+    </kanji>
+    <kanji>
+        <character>木</character>
+        <meaning>Baum</meaning>
+        <kunyomi>き</kunyomi>
+        <onyomi>もく</onyomi>
+        <description>
+            Beim Zeichen für Baum lässt sich auch mit etwas Fantasie ein stilisierter Baum erkennen. Ein Stamm in der 
+            Mitte von dem oben eine Spitze wegragt und Äste sich in alle Richtungen erstrecken.
+        </description>
+    </kanji>
+    <kanji>
+        <character>土</character>
+        <meaning>Erde, Boden</meaning>
+        <kunyomi>つち</kunyomi>
+        <onyomi>ど・と</onyomi>
+        <description>
+            Hier kann man ein Kreuz sehen das aus der Erde ragt, von einem Grab das sich darunter im Boden verbirgt.
+        </description>
+    </kanji>
+    <kanji>
+        <character>日</character>
+        <meaning>Sonne, Tag</meaning>
+        <kunyomi>ひ・か</kunyomi>
+        <onyomi>にち・じつ</onyomi>
+        <description>
+            Das Zeichen für Tag und Sonne, das sich auch nur schwer mit einer Sonne in Verbindung bringen lässt. Das 
+            Nächste was einer Eselsbrücke gleicht ist das Stilisieren einem Sonnensymbol in einen Kreis mit einem 
+            Punkt darin, das sich dann zu einem Rechteck machen lässt mit dem Punkt als Strich.
+        </description>
+    </kanji>
+    <kanji>
+        <character>月</character>
+        <meaning>Mond, Monat</meaning>
+        <kunyomi>つき</kunyomi>
+        <onyomi>げつ・がつ</onyomi>
+        <description>
+            Dieses Zeichen steht entweder für den Mond oder auch Monat und kann sich maximal mit einem Halbmond 
+            vergleichen, lediglich die 2 Striche sind sehr schwer in dieses Bild einfügen zu lassen.
+        </description>
+    </kanji>
+    <kanji>
+        <character>山</character>
+        <meaning>Berg</meaning>
+        <kunyomi>やま</kunyomi>
+        <onyomi>さん</onyomi>
+        <description>
+            Hier lässt sich recht einfach ein Berg sehen: Der Gipfel in der Mitte über den beiden kleineren Spitzen aufragend.
+        </description>
+    </kanji>
+    <kanji>
+        <character>川</character>
+        <meaning>Fluss</meaning>
+        <kunyomi>かわ</kunyomi>
+        <onyomi>せん</onyomi>
+        <description>
+            Bei diesem Zeichen kann man auch mit viel Fantasie den Fluss erkennen, der sich als Bedeutung dahinter verbirgt.
+        </description>
+    </kanji>
+    <kanji>
+        <character>本</character>
+        <meaning>Buch, Urpsrung</meaning>
+        <kunyomi>もと</kunyomi>
+        <onyomi>ほん</onyomi>
+        <description>
+            Bücher werden aus Papier hergestellt, wofür man einen Baum am Stamm schneiden muss (symbolisiert über den 
+            Strich durch den Stamm). Auch sind Bücher oft Ursprung für großes Wissen oder interessante Geschichten.
+        </description>
+    </kanji>
+    <kanji>
+        <character>口</character>
+        <meaning>Mund</meaning>
+        <kunyomi>くち</kunyomi>
+        <onyomi>こう・こ</onyomi>
+        <description>
+            Ein weit aufgerissener Mund ist in diesem Kanji recht einfach zu sehen.
+        </description>
+    </kanji>
+</kanji-list>

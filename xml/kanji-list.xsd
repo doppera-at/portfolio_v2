@@ -1,10 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://doppera.at/kanji-list.xsd"
     elementFormDefault="qualified"
-    xmlns="http://tempuri.org/XMLSchema.xsd"
-    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
->
+    xmlns="http://doppera.at/kanji-list.xsd"
+    xmlns:mstns="http://doppera.at/kanji-list.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
     <xs:element name="kanji-list">
         <xs:complexType>
@@ -14,10 +13,13 @@
         </xs:complexType>
     </xs:element>
 
-
     <xs:complexType name="kanjiType">
         <xs:sequence>
+            <xs:element name="character" type="xs:string"/>
+            <xs:element name="meaning" type="xs:string"/>
+            <xs:element name="kunyomi" type="xs:string"/>
+            <xs:element name="onyomi" type="xs:string"/>
+            <xs:element name="description" type="xs:string"/>
         </xs:sequence>
     </xs:complexType>
-
 </xs:schema>
