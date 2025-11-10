@@ -92,11 +92,13 @@ function switchToPhoto(index) {
     let photo = photoList[index];
     log.debug(`Photo to switch to: ${JSON.stringify(photo)}`);
 
-    photoElement.src = `../images/photos/${photo["fileName"]}`;
+    photoElement.src = `../images/photos/thumbnails/${photo["fileName"]}`;
+    photoElement.alt = photo["description"];
+
+    modalImage.src = `../images/photos/${photo["fileName"]}`;
+    modalImage.alt = photo["description"];
     photoElement.addEventListener("click", function (e) {
         modalContainer.style.display = "flex";
-        modalImage.src = this.src;
-        modalImage.alt = this.alt;
         modalImage.addEventListener("click", () => {
             modalContainer.style.display = "none";
         })

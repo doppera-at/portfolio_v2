@@ -8,7 +8,7 @@ var photoList = [];
 
 async function fetchXMLData() {
     console.log("fetching xml data");
-    await fetch("../xml/photos.xml")
+    await fetch("../xml/art.xml")
         .then((response) => response.text())
         .then((text) => {
             const parser = new DOMParser();
@@ -35,8 +35,9 @@ function createPhotoGrid() {
     
     for (let photo of photoList) {
         let image = document.createElement("img");
-        image.src = "../images/photos/" + photo["fileName"];
+        image.src = `../images/art/thumbnails/${photo["fileName"]}`;
         image.alt = photo["description"];
+        image.id = photo["fileName"];
         image.addEventListener("click", displayImageEvent);
         divPhotoGrid.appendChild(image);
     }
