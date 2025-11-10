@@ -96,7 +96,6 @@ function switchToPhoto(index) {
         modalImage.alt = this.alt;
         modalImage.addEventListener("click", () => {
             modalContainer.style.display = "none";
-            modalContainer.style.cursor = "pointer";
         })
     })
     let infoList = document.createElement("ul");

@@ -17,7 +17,9 @@
     text-align: right;
 }
 #photo {
-    width: 60%;
+    width: 40%;
+    cursor: pointer;
+    border: 1px solid var(--line);
 }
 #photo-info {
     width: 40%;
@@ -58,6 +60,8 @@
     display: block;
     width: 80%;
     max-width: 1000px;
+    cursor: pointer;
+    border: 1px solid var(--line);
 }
 
 #modal-close {
