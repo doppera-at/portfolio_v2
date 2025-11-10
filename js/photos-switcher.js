@@ -67,6 +67,7 @@ function keyToReadableString(key) {
     }
 }
 
+
 function switchToPhoto(index) {
     let log = logger.createSubLogger("switchToPhoto");
     log.info(`Switching to photo ${index}.`);
@@ -80,6 +81,7 @@ function switchToPhoto(index) {
     log.debug(`Photo to switch to: ${JSON.stringify(photo)}`);
 
     photoElement.src = `../images/photos/${photo["fileName"]}`;
+    photoElement.addEventListener("click", displayModal(photoElement));
     let infoList = document.createElement("ul");
 
     for (const key in photo) {
@@ -97,6 +99,7 @@ function createListItem(content) {
     listItem.innerText = content;
     return listItem;
 }
+
 
 function createControlButtons() {
     containerButtons.innerHTML = "";
@@ -122,6 +125,7 @@ function createControlButtons() {
     containerButtons.appendChild(button);
 }
 
+
 function switchToFirstPhoto() {
     currentIndex = 0;
     switchToPhoto(currentIndex);
@@ -142,6 +146,7 @@ function switchToPrevPhoto() {
     }
     switchToPhoto(currentIndex);
 }
+
 
 await fetchXMLData();
 createControlButtons();
