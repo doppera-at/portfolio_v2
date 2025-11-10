@@ -1,4 +1,9 @@
+/*
+For the image-expand script I used the following example as a template:
+https://www.w3schools.com/CSS/tryit.asp?filename=trycss_image_gallery_responsive_js
+*/
 import { Logger } from "./logger.js";
+// import { displayModal } from "./image-expand.js";
 var logger = new Logger("main", Logger.LOG_LEVELS.FINEST);
 
 
@@ -7,6 +12,10 @@ var photoList = [];
 const photoElement = document.getElementById("photo");
 const containerInfo = document.getElementById("photo-info");
 const containerButtons = document.getElementById("photo-controls");
+
+const modalContainer = document.getElementById('modal-container');
+const modalImage = document.getElementById('modal-content');
+const modalClose = document.getElementById('modal-close');
 
 let currentIndex = 0;
 
@@ -81,7 +90,15 @@ function switchToPhoto(index) {
     log.debug(`Photo to switch to: ${JSON.stringify(photo)}`);
 
     photoElement.src = `../images/photos/${photo["fileName"]}`;
-    photoElement.addEventListener("click", displayModal(photoElement));
+    photoElement.addEventListener("click", function (e) {
+        modalContainer.style.display = "flex";
+        modalImage.src = this.src;
+        modalImage.alt = this.alt;
+        modalImage.addEventListener("click", () => {
+            modalContainer.style.display = "none";
+            modalContainer.style.cursor = "pointer";
+        })
+    })
     let infoList = document.createElement("ul");
 
     for (const key in photo) {
@@ -123,6 +140,10 @@ function createControlButtons() {
     button.innerText = "Letztes";
     button.addEventListener("click", switchToLastPhoto);
     containerButtons.appendChild(button);
+
+    modalClose.addEventListener("click", (e) => {
+        modalContainer.style.display = "none";
+    });
 }
 
 
@@ -146,6 +167,7 @@ function switchToPrevPhoto() {
     }
     switchToPhoto(currentIndex);
 }
+
 
 
 await fetchXMLData();
