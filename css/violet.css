@@ -78,6 +78,11 @@ h1, h2, h3, h4, h5, h6 {
 .content-image img {
     width: 80%;
 }
+button {
+    margin: 0 0.3rem;
+    color: var(--text);
+    background-color: var(--heading-shadow);
+}
 
 
 /* 
