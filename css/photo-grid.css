@@ -10,4 +10,5 @@
     height: 250px;
     border: 1px solid var(--line);
     border-radius: 10%;
+    cursor: pointer;
 }
