@@ -1,6 +1,9 @@
 /*
 For the image-expand script I used the following example as a template:
 https://www.w3schools.com/CSS/tryit.asp?filename=trycss_image_gallery_responsive_js
+
+The first steps to read in XML data using JavaScript was taken from here:
+https://developer.mozilla.org/en-US/docs/Web/XML/Guides/Parsing_and_serializing_XML
 */
 import { Logger } from "./logger.js";
 // import { displayModal } from "./image-expand.js";
