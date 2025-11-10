@@ -1,5 +1,5 @@
-.modal-container {
-    display: none;
+#modal-container {
+    display: block;
     position: fixed;
     z-index: 999;
     top: 0;
@@ -11,14 +11,14 @@
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.modal-content {
+#modal-content {
     margin: auto;
     display: block;
     width: 80%;
     max-width: 800px;
 }
 
-.modal-close {
+#modal-close {
     position: absolute;
     top: 15px;
     right: 35px;
@@ -26,8 +26,8 @@
     font-size: 4rem;
     font-weight: bold;
 }
-.modal-close:hover,
-.model-close:focus {
+#modal-close:hover,
+#model-close:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
