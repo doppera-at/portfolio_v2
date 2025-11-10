@@ -107,7 +107,7 @@ function switchToPhoto(index) {
         log.fine(`  Retrieving information for key '${key}':`);
         if (key == "fileName") { continue; }
 
-        infoList.appendChild(createListItem(`${keyToReadableString(key)}: ${photo[key]}`));
+        infoList.appendChild(createListItem(`${keyToReadableString(key)}:\n${photo[key]}`));
     }
 
     containerInfo.innerHTML = "";
