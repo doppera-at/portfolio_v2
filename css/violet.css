@@ -82,6 +82,7 @@ button {
     margin: 0 0.3rem;
     color: var(--text);
     background-color: var(--heading-shadow);
+    font-size: 0.8rem;
 }
 
 
