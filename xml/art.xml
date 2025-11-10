@@ -3,146 +3,289 @@
 <photos xmlns="http://doppera.at/photos.xsd">
   <photo>
     <fileName>IMG_20181128_172451.JPG</fileName>
-    <dateTime>2018:11:28 17:24:51</dateTime>
-    <cameraMake>HUAWEI</cameraMake>
-    <cameraModel>FIG-LX1</cameraModel>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
     <lensModel>Unknown</lensModel>
-    <imageWidth>4160</imageWidth>
-    <imageHeight>3120</imageHeight>
-    <iso>640</iso>
-    <focalLength>3.21</focalLength>
-    <fNumber>2.2</fNumber>
-    <exposureTime>0.07</exposureTime>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
   </photo>
   <photo>
     <fileName>IMG_20181128_181829.JPG</fileName>
-    <dateTime>2018:11:28 18:18:30</dateTime>
-    <cameraMake>HUAWEI</cameraMake>
-    <cameraModel>FIG-LX1</cameraModel>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
     <lensModel>Unknown</lensModel>
-    <imageWidth>4160</imageWidth>
-    <imageHeight>3120</imageHeight>
-    <iso>640</iso>
-    <focalLength>3.21</focalLength>
-    <fNumber>2.2</fNumber>
-    <exposureTime>0.06</exposureTime>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
   </photo>
   <photo>
     <fileName>DSC01601.JPG</fileName>
     <dateTime>Unknown</dateTime>
-    <cameraMake>SONY</cameraMake>
-    <cameraModel>ILCE-6400</cameraModel>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
     <lensModel>Unknown</lensModel>
     <imageWidth>Unknown</imageWidth>
     <imageHeight>Unknown</imageHeight>
-    <iso>800</iso>
-    <focalLength>30.0</focalLength>
-    <fNumber>5.6</fNumber>
-    <exposureTime>0.03333333333333333</exposureTime>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
   </photo>
   <photo>
     <fileName>IMG_20181128_172535.JPG</fileName>
-    <dateTime>2018:11:28 17:25:36</dateTime>
-    <cameraMake>HUAWEI</cameraMake>
-    <cameraModel>FIG-LX1</cameraModel>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
     <lensModel>Unknown</lensModel>
-    <imageWidth>4160</imageWidth>
-    <imageHeight>3120</imageHeight>
-    <iso>640</iso>
-    <focalLength>3.21</focalLength>
-    <fNumber>2.2</fNumber>
-    <exposureTime>0.07</exposureTime>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03507.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
   </photo>
   <photo>
     <fileName>IMG_20181128_181846.JPG</fileName>
-    <dateTime>2018:11:28 18:18:47</dateTime>
-    <cameraMake>HUAWEI</cameraMake>
-    <cameraModel>FIG-LX1</cameraModel>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
     <lensModel>Unknown</lensModel>
-    <imageWidth>4160</imageWidth>
-    <imageHeight>3120</imageHeight>
-    <iso>640</iso>
-    <focalLength>3.21</focalLength>
-    <fNumber>2.2</fNumber>
-    <exposureTime>0.06</exposureTime>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03533.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03560.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03558.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
   </photo>
   <photo>
     <fileName>IMG_20181128_172421.JPG</fileName>
-    <dateTime>2018:11:28 17:24:21</dateTime>
-    <cameraMake>HUAWEI</cameraMake>
-    <cameraModel>FIG-LX1</cameraModel>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
     <lensModel>Unknown</lensModel>
-    <imageWidth>3120</imageWidth>
-    <imageHeight>4160</imageHeight>
-    <iso>640</iso>
-    <focalLength>3.21</focalLength>
-    <fNumber>2.2</fNumber>
-    <exposureTime>0.07</exposureTime>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03548.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
   </photo>
   <photo>
     <fileName>DSC01060.JPG</fileName>
-    <dateTime>2023:11:13 23:35:28</dateTime>
-    <cameraMake>SONY</cameraMake>
-    <cameraModel>ILCE-6400</cameraModel>
-    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
-    <imageWidth>6000</imageWidth>
-    <imageHeight>3376</imageHeight>
-    <iso>125</iso>
-    <focalLength>36.0</focalLength>
-    <fNumber>5.6</fNumber>
-    <exposureTime>0.03333333333333333</exposureTime>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03521.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03543.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
   </photo>
   <photo>
     <fileName>DSC01063.JPG</fileName>
-    <dateTime>2023:11:13 23:36:32</dateTime>
-    <cameraMake>SONY</cameraMake>
-    <cameraModel>ILCE-6400</cameraModel>
-    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
-    <imageWidth>6000</imageWidth>
-    <imageHeight>3376</imageHeight>
-    <iso>125</iso>
-    <focalLength>21.0</focalLength>
-    <fNumber>5.6</fNumber>
-    <exposureTime>0.03333333333333333</exposureTime>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC01597.JPG</fileName>
-    <dateTime>2024:01:03 01:16:32</dateTime>
-    <cameraMake>SONY</cameraMake>
-    <cameraModel>ILCE-6400</cameraModel>
-    <lensModel>E 30mm F3.5 Macro</lensModel>
-    <imageWidth>6000</imageWidth>
-    <imageHeight>3376</imageHeight>
-    <iso>640</iso>
-    <focalLength>30.0</focalLength>
-    <fNumber>5.6</fNumber>
-    <exposureTime>0.016666666666666666</exposureTime>
+    <fileName>DSC03493.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03497.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03530.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
   </photo>
   <photo>
     <fileName>DSC01066.JPG</fileName>
-    <dateTime>2023:11:13 23:38:04</dateTime>
-    <cameraMake>SONY</cameraMake>
-    <cameraModel>ILCE-6400</cameraModel>
-    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
-    <imageWidth>6000</imageWidth>
-    <imageHeight>3376</imageHeight>
-    <iso>125</iso>
-    <focalLength>27.0</focalLength>
-    <fNumber>5.6</fNumber>
-    <exposureTime>0.03333333333333333</exposureTime>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03549.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
   </photo>
   <photo>
     <fileName>DSC01603.JPG</fileName>
     <dateTime>Unknown</dateTime>
-    <cameraMake>SONY</cameraMake>
-    <cameraModel>ILCE-6400</cameraModel>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
     <lensModel>Unknown</lensModel>
     <imageWidth>Unknown</imageWidth>
     <imageHeight>Unknown</imageHeight>
-    <iso>800</iso>
-    <focalLength>30.0</focalLength>
-    <fNumber>5.6</fNumber>
-    <exposureTime>0.03333333333333333</exposureTime>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03519.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
   </photo>
   <photo>
     <fileName>20170130_130720.JPG</fileName>
@@ -160,53 +303,92 @@
   <photo>
     <fileName>DSC01602.JPG</fileName>
     <dateTime>Unknown</dateTime>
-    <cameraMake>SONY</cameraMake>
-    <cameraModel>ILCE-6400</cameraModel>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
     <lensModel>Unknown</lensModel>
     <imageWidth>Unknown</imageWidth>
     <imageHeight>Unknown</imageHeight>
-    <iso>800</iso>
-    <focalLength>30.0</focalLength>
-    <fNumber>5.6</fNumber>
-    <exposureTime>0.03333333333333333</exposureTime>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03509.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
   </photo>
   <photo>
     <fileName>20170901_214211.JPG</fileName>
-    <dateTime>2017:09:01 21:42:11</dateTime>
-    <cameraMake>samsung</cameraMake>
-    <cameraModel>SM-G935F</cameraModel>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
     <lensModel>Unknown</lensModel>
-    <imageWidth>4032</imageWidth>
-    <imageHeight>3024</imageHeight>
-    <iso>320</iso>
-    <focalLength>4.2</focalLength>
-    <fNumber>1.7</fNumber>
-    <exposureTime>0.1</exposureTime>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03545.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
   </photo>
   <photo>
     <fileName>DSC01062.JPG</fileName>
-    <dateTime>2023:11:13 23:35:44</dateTime>
-    <cameraMake>SONY</cameraMake>
-    <cameraModel>ILCE-6400</cameraModel>
-    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
-    <imageWidth>6000</imageWidth>
-    <imageHeight>3376</imageHeight>
-    <iso>125</iso>
-    <focalLength>36.0</focalLength>
-    <fNumber>5.6</fNumber>
-    <exposureTime>0.03333333333333333</exposureTime>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
   </photo>
   <photo>
     <fileName>IMG_20181128_172427.JPG</fileName>
-    <dateTime>2018:11:28 17:24:28</dateTime>
-    <cameraMake>HUAWEI</cameraMake>
-    <cameraModel>FIG-LX1</cameraModel>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
     <lensModel>Unknown</lensModel>
-    <imageWidth>3120</imageWidth>
-    <imageHeight>4160</imageHeight>
-    <iso>640</iso>
-    <focalLength>3.21</focalLength>
-    <fNumber>2.2</fNumber>
-    <exposureTime>0.06</exposureTime>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03499.JPG</fileName>
+    <dateTime>Unknown</dateTime>
+    <cameraMake>Unknown</cameraMake>
+    <cameraModel>Unknown</cameraModel>
+    <lensModel>Unknown</lensModel>
+    <imageWidth>Unknown</imageWidth>
+    <imageHeight>Unknown</imageHeight>
+    <iso>Unknown</iso>
+    <focalLength>Unknown</focalLength>
+    <fNumber>Unknown</fNumber>
+    <exposureTime>Unknown</exposureTime>
   </photo>
 </photos>
