@@ -1,0 +1,13 @@
+#photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 250px);
+    gap: 2rem;
+    padding: 2rem;
+}
+#photo-grid img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border: 1px solid var(--line);
+    border-radius: 10%;
+}

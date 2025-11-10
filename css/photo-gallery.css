@@ -13,11 +13,13 @@
     flex-direction: row;
 }
 #photo-container {
-    width: 60%;
+    width: 800px;
     text-align: right;
 }
 #photo {
-    width: 40%;
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
     cursor: pointer;
     border: 1px solid var(--line);
 }
@@ -25,14 +27,15 @@
     width: 40%;
 }
 #photo-info ul li {
-    margin: 0;
-    text-indent: 0;
+    margin-left: 30px;
+    text-indent: -30px;
     list-style-position: unset;
+    list-style-type: none;
 }
 
 #photo-controls {
     margin: 1rem 0;
-    width: 50%;
+    width: 80%;
     text-align: center;
 }
 #photo-controls button {
@@ -40,41 +43,39 @@
 }
 
 
-#modal-container {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: black;
-    background-color: rgba(0, 0, 0, 0.8);
+@media (max-width: 600px) {
+    #photo-container {
+        width: 250px;
+    }
+    #photo {
+        width: 200px;
+        height: 200px;
+    }
 }
-
-#modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 1000px;
-    cursor: pointer;
-    border: 1px solid var(--line);
+@media (min-width: 600px) and (max-width: 800px) {
+    #photo-container {
+        width: 350px;
+    }
+    #photo {
+        width: 300px;
+        height: 300px;
+    }
 }
-
-#modal-close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 2rem;
-    font-weight: bold;
+@media (min-width: 800px) and (max-width: 1000px) {
+    #photo-container {
+        width: 500px;
+    }
+    #photo {
+        width: 400px;
+        height: 400px;
+    }
 }
-#modal-close:hover,
-#model-close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
+@media (min-width: 1000px) and (max-width: 1200px) {
+    #photo-container {
+        width: 650px;
+    }
+    #photo {
+        width: 450px;
+        height: 450px;
+    }
 }
