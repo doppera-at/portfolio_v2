@@ -45,7 +45,7 @@
 
 @media (max-width: 600px) {
     #photo-container {
-        width: 400px;
+        width: 250px;
     }
     #photo {
         width: 200px;
@@ -54,7 +54,7 @@
 }
 @media (min-width: 600px) and (max-width: 800px) {
     #photo-container {
-        width: 500px;
+        width: 350px;
     }
     #photo {
         width: 300px;
@@ -63,7 +63,7 @@
 }
 @media (min-width: 800px) and (max-width: 1000px) {
     #photo-container {
-        width: 600px;
+        width: 500px;
     }
     #photo {
         width: 400px;
@@ -72,10 +72,10 @@
 }
 @media (min-width: 1000px) and (max-width: 1200px) {
     #photo-container {
-        width: 700px;
+        width: 650px;
     }
     #photo {
-        width: 500px;
-        height: 500px;
+        width: 450px;
+        height: 450px;
     }
 }
