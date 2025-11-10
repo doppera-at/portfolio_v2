@@ -53,6 +53,7 @@
                         </div>
                         <div id="photo-info">
                             <ul>
+                                <li>Date</li>
                                 <li>Camera Make</li>
                                 <li>Camera Model</li>
                                 <li>Lens Info</li>
@@ -78,9 +79,14 @@
 
     </div>
 
+    <div id="modal-container">
+        <span id="modal-close">x</span>
+        <img id="modal-content">
+    </div>
+
 
     <div class="content-image">
-        <img src="../images/writing_letter_small.jpg" alt="Bild eines handschriftlichen Briefes mit Füllfeder" class="h-25 rounded-circle border border-primary">
+        <img src="../images/bewerbungsfoto-circle-nobg.png" alt="Bild von mir" class="h-25 rounded-circle border border-primary">
     </div>
     <div class="controls m-2 p-2">
         <div class="control-item"><a href="#" onclick="toggleTheme(this)" id="toggle-dark-mode"></a></div>
@@ -88,9 +94,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-    <script src="../js/photos-switcher.js" type="module"></script>
-    <script src="../js/dark-mode-toggler.js" type="module"></script>
-    <script src="../js/load-components.js" type="module"></script>
+    <script src="../js/photo-gallery.js" type="module"></script>
+    <script src="../js/dark-mode-toggler.js"></script>
+    <script src="../js/load-components.js"></script>
 
 </body>
 </html>
