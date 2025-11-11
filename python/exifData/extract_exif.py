@@ -1,6 +1,7 @@
 import argparse
+import logging
 import sys
-import xml.etree.cElementTree as ET
+import xml.etree.ElementTree as ET
 
 from os import listdir
 from pprint import pp
@@ -11,29 +12,48 @@ from PIL.ExifTags import Base, IFD, LightSource
 
 
 parser = argparse.ArgumentParser(
-    prog="export_exif",
+    prog="extract_exif",
     description="Exports Exif-Data from all images within a folder into xml",
 )
-parser.add_argument('folder')
-parser.add_argument('-o', '--output')
+parser.add_argument('folder', help="Folder containing the images to create the xml from")
+parser.add_argument('-o', '--output', help="Output file to write xml data into")
+parser.add_argument('-v', '--verbose', help="Activate debug log output", action="store_true")
+
+if len(sys.argv)==1:
+    parser.print_help(sys.stderr)
+    sys.exit(1)
 args = parser.parse_args()
-print(args.folder)
 
 
+logging.basicConfig(format="%(asctime)s [%(levelname)-5s]: %(message)s", level=logging.INFO)
+if args.verbose:
+    logging.getLogger('extract_exif').setLevel(logging.DEBUG)
+logger = logging.getLogger('extract_exif')
+
+
+logger.debug("WHY ISNT THIS SHOWING UP????????")
+logger.info(f"Scanning folder {args.folder} for images to extract exif data from")
 files = [x for x in listdir(args.folder) if x.endswith('.JPG')]
 if not files:
     sys.exit(f"No images in provided folder: ${args.folder}")
+logger.info(f"Found {len(files)} images")
 images = {}
 
 for file in files:
+    logger.info(f"Extracting data from '{file}'")
+    logger.debug(f"Path to file: {args.folder}{file}")
     with Image.open(f"{args.folder}{file}") as img:
         exifData = img.getexif()
+        logger.debug(f"{exifData=}")
         ifdData = exifData.get_ifd(IFD.Exif.value)
+        logger.debug(f"{ifdData=}")
         imageData = {}
 
         imageData['fileName'] = file
+        logger.debug(f"{imageData['fileName']=}")
 
         imageData['dateTime'] = str(exifData.get(Base.DateTime.value, "Unknown"))
+        logger.debug(f"{imageData['dateTime']=}")
         imageData['cameraMake'] = str(exifData.get(Base.Make.value, "Unknown"))
         imageData['cameraModel'] = str(exifData.get(Base.Model.value, "Unknown"))
         imageData['lensModel'] = str(ifdData.get(Base.LensModel.value, "Unknown"))
@@ -48,41 +68,40 @@ for file in files:
 
         images[file] = imageData
 
-pp(images)
+logger.info(f"Successfully extracted exif data. Creating XML-data")
+logger.debug(f"ImageData: {images}")
 
 root = ET.Element("photos")
 root.attrib['xmlns'] = "http://doppera.at/photos.xsd"
-print("Created <photos>")
 for file, imageData in images.items():
     photo = ET.Element("photo")
-    print("Created <photo>")
     root.append(photo)
     for key, value in imageData.items():
         element = ET.Element(key)
         element.text = value
         photo.append(element)
-        print(f"Created <{key}> with {value}")
 
-for element in root.iter():
-    attrib = element.attrib
-    if len(attrib) > 1:
-        print(attrib)
-    print(f"{element}: {element.text}")
+logger.debug(f"XML tree: {ET.tostring(root)}")
+# for element in root.iter():
+#     attrib = element.attrib
+#     if len(attrib) > 1:
+#         print(attrib)
+#     print(f"{element}: {element.text}")
 
 tree = ET.ElementTree(root)
-pp(tree)
+ET.indent(tree, space="  ", level=0)
 
 if args.output:
     outputFile = args.output
 else:
     outputFile = "photos.xml"
+logger.debug(f"Output file: {outputFile}")
 
-ET.indent(tree, space="  ", level=0)
 xmlVersion = "<?xml version=\"1.0\" encoding=\"utf-8\"?>"
 xmlModel = "<?xml-model href=\"photos.xsd\"?>"
 with open(outputFile, "w") as file:
     file.write(f"{xmlVersion}\n{xmlModel}\n")
 with open(outputFile, "ab") as file:
     tree.write(file)
-    # tree.write(file, encoding="utf-8", default_namespace="https://doppera.at/photos.xsd")
-    # tree.write(file, encoding="unicode")
+
+logger.info(f"Finished writing data to: {outputFile}")
