@@ -149,15 +149,16 @@ main {
     margin-top: 2.5rem;
 }
 main article {
-    margin: 0 0 4rem 0;
-    padding: 2% 6%;
-    margin-right: 15%;
+    padding: 2% 0 2% 15%;
+    margin-bottom: 4rem;
+    margin-right: 25%;
     border-top: 1px solid var(--line);
     position: relative;
 }
 main article:nth-of-type(2n) {
+    padding: 2% 15% 2% 0;
     margin-right: 0;
-    margin-left: 15%;
+    margin-left: 25%;
 }
 main article h2[lang=de],
 main article h2[lang=en] {
@@ -189,6 +190,12 @@ main li {
     margin-bottom: 0.3rem;
     text-indent: -5%;
     list-style-position: inside;
+}
+main pre {
+    padding: 5rem;
+}
+code {
+    border: 1px solid var(--line);
 }
 
 
