@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 1%;
     left: 1%;
     width: 15%;
+    max-width: 250px;
 }
 .content-image img {
     width: 80%;
@@ -277,10 +278,16 @@ form fieldset {
 form fieldset input,
 form fieldset textarea {
     margin-bottom: 0.5rem;
+    padding: 0.5rem;
     border: 1px solid var(--line);
-    width: 80%;
+    width: 100%;
     color: var(--text);
     background-color: var(--form-input-background);
+}
+form fieldset input:focus,
+form fieldset textarea:focus {
+    border: 1px solid var(--heading);
+    outline: 1px solid var(--heading-shadow);
 }
 form button {
     margin: 1rem;
@@ -335,12 +342,18 @@ footer {
     font-size: 0.8rem;
     background-color: var(--footer);
     border-top: 1px solid var(--line);
+    padding: 0.5rem;
 }
 footer a, footer a:active, footer a:visited {
     color: var(--link-footer)
 }
 footer a:hover {
     color: var(--link-footer-hover);
+}
+footer img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0.5rem;
 }
 
 
