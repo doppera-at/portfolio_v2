@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Doppera.at - Portfolio eines angehenden Entwicklers</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/highlightjs/tokyo-night-light.min.css" id="highlightjs-css">
+
+    <script src="../js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
     <script src="../js/jquery-3.7.1.min.js"></script>
 
     <link rel="stylesheet" href="../css/color-definitions.css">
@@ -40,6 +44,129 @@
             <div class="row">
                 <div class="col-md-12">
 
+                    <article>
+                        <h2 lang="ja">メタデータ</h2>
+                        <h2 lang="de">Metadaten auslesen</h2>
+                        <p>
+                            Da ich eine lange Liste an Fotos habe die ich in eine Gallerie mitsamt Informationen über 
+                            die verwendete Kamera, Linse und Einstellungen einblenden wollte, machte es Sinn sich ein 
+                            kleines Script zu schreiben das die Metadatan aus den Bildern liest und in eine XML-Datei 
+                            schreibt.<br>
+                            Das hat mir vor Allem sehr geholfen wenn ich Änderungen vorgenommen habe, da es nur nötig 
+                            war das Script noch einmal auszuführen.
+                        </p>
+                        <p>
+                            Auch wenn die Struktur der erstellen XML-Datei vorgegben ist, kann man zumindest eine 
+                            spezifische Datei für Angeben in denen die Daten gespeichert werden sollen. So war es mir 
+                            leicht möglich 2 verschiedene Dateien zu machen, die meine Fotos und meine Zeichnungen 
+                            separat beinhalten.
+                        </p>
+
+                        <pre><code class="language-python">
+import argparse
+import logging
+import sys
+import xml.etree.ElementTree as ET
+
+from os import listdir
+from pprint import pp
+
+from PIL import Image
+from PIL import ExifTags
+from PIL.ExifTags import Base, IFD, LightSource
+
+
+parser = argparse.ArgumentParser(
+    prog="extract_exif",
+    description="Exports Exif-Data from all images within a folder into xml",
+)
+parser.add_argument('folder', help="Folder containing the images to create the xml from")
+parser.add_argument('-o', '--output', help="Output file to write xml data into")
+parser.add_argument('-v', '--verbose', help="Activate debug log output", action="store_true")
+
+if len(sys.argv)==1:
+    parser.print_help(sys.stderr)
+    sys.exit(1)
+args = parser.parse_args()
+
+
+logging.basicConfig(format="%(asctime)s [%(levelname)-5s]: %(message)s", level=logging.INFO)
+if args.verbose:
+    logging.getLogger('extract_exif').setLevel(logging.DEBUG)
+logger = logging.getLogger('extract_exif')
+
+
+logger.info(f"Scanning folder {args.folder} for images to extract exif data from")
+image_suffixes = ['.jpg', '.JPG', '.jpeg', '.png', '.PNG']
+files = [x for x in listdir(args.folder) if list(filter(x.endswith, image_suffixes)) != []]
+if not files:
+    sys.exit(f"No images in provided folder: ${args.folder}")
+logger.info(f"Found {len(files)} images")
+images = {}
+
+for file in files:
+    logger.info(f"Extracting data from '{file}'")
+    logger.debug(f"Path to file: {args.folder}{file}")
+    with Image.open(f"{args.folder}{file}") as img:
+        exifData = img.getexif()
+        logger.debug(f"{exifData=}")
+        ifdData = exifData.get_ifd(IFD.Exif.value)
+        logger.debug(f"{ifdData=}")
+        imageData = {}
+
+        imageData['fileName'] = file
+        logger.debug(f"{imageData['fileName']=}")
+
+        imageData['dateTime'] = str(exifData.get(Base.DateTime.value, "Unknown"))
+        logger.debug(f"{imageData['dateTime']=}")
+        imageData['cameraMake'] = str(exifData.get(Base.Make.value, "Unknown"))
+        imageData['cameraModel'] = str(exifData.get(Base.Model.value, "Unknown"))
+        imageData['lensModel'] = str(ifdData.get(Base.LensModel.value, "Unknown"))
+
+        imageData['imageWidth'] = str(ifdData.get(Base.ExifImageWidth.value, "Unknown"))
+        imageData['imageHeight'] = str(ifdData.get(Base.ExifImageHeight.value, "Unknown"))
+
+        imageData['iso'] = str(ifdData.get(Base.ISOSpeedRatings.value, "Unknown"))
+        imageData['focalLength'] = str(ifdData.get(Base.FocalLength.value, "Unknown"))
+        imageData['fNumber'] = str(ifdData.get(Base.FNumber.value, "Unknown"))
+        imageData['exposureTime'] = str(ifdData.get(Base.ExposureTime.value, "Unknown"))
+
+        images[file] = imageData
+
+logger.info(f"Successfully extracted exif data. Creating XML-data")
+logger.debug(f"ImageData: {images}")
+
+root = ET.Element("photos")
+root.attrib['xmlns'] = "http://doppera.at/photos.xsd"
+for file, imageData in images.items():
+    photo = ET.Element("photo")
+    root.append(photo)
+    for key, value in imageData.items():
+        element = ET.Element(key)
+        element.text = value
+        photo.append(element)
+
+logger.debug(f"XML tree: {ET.tostring(root)}")
+
+tree = ET.ElementTree(root)
+ET.indent(tree, space="  ", level=0)
+
+if args.output:
+    outputFile = args.output
+else:
+    outputFile = "photos.xml"
+logger.debug(f"Output file: {outputFile}")
+
+xmlVersion = '<?xml version="1.0" encoding="utf-8"?>'
+xmlModel = '<?xml-model href="photos.xsd"?>'
+with open(outputFile, "w") as file:
+    file.write(f"{xmlVersion}\n{xmlModel}\n")
+with open(outputFile, "ab") as file:
+    tree.write(file)
+
+logger.info(f"Finished writing data to: {outputFile}")
+                        </code></pre>
+                    </article>
 
                 </div>
             </div>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doppera.at - Portfolio eines angehenden Entwicklers</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/highlightjs/tokyo-night-light.min.css" id="highlightjs-css">
+
+    <script src="../js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+
+    <link rel="stylesheet" href="../css/color-definitions.css">
+    <link rel="stylesheet" href="../css/violet.css">
+
+</head>
+<body class="dvw-100 m-0 p-0">
+    <div class="container-fluid m-0 p-0">
+
+
+        <header>
+        </header>
+
+
+        <nav>
+        </nav>
+
+
+        <noscript>
+            <div class="row">
+                <div class="col-md-12 text-center" id="noscript">
+                    <h2>JavaScript ist deaktiviert</h2>
+                    <p>Einige Funktionen auf dieser Seite sind mit JavaScript geschrieben und funktionieren dadurch nicht.<br>Bitte aktivieren Sie JavaScript um diese Seite in vollem Umfang nutzen zu können.</p>
+                </div>
+            </div>
+        </noscript>
+        <!-- <div class="row">
+            <div class="col-md-12 spacer">&nbsp;</div>
+        </div> -->
+
+
+        <main>
+            <div class="row">
+                <div class="col-md-12">
+
+                    <article>
+                        <h2 lang="ja">サムネイルお生成する</h2>
+                        <h2 lang="de">Thumbnails generieren</h2>
+                        <p>
+                            Da die meisten Bilder mit meiner Kamera aufgenommen worden sind, war natürlich die Größe der 
+                            Bilder selbst, aber auch die Dateigröße viel zu groß als dass sie praktikabel einsetzbar 
+                            gewesen wären. Vor Allem für die Nutzung in einer Galerie mussten kleine Versionen erstellt 
+                            werden um die Ladezeit zu verringern.
+                        </p>
+                        <p>
+                            Um mir das händische Umwandeln zu sparen, habe ich mir ein Script geschrieben, welches alle 
+                            Bilder eines Ordners einliest, das Bild verkleinert sodass die kleinere Seite einen
+                            angegebenen Wert hat und dann die längere Seite an den Rändern gleichmäßig abschneidet.<br>
+                            Das Resultat waren Bilder, die (gleich wie die ursprüngliche Größe verteilt war) genau 
+                            mittig ausgeschnitten sind und sich demnach hervorragend als Thumbnails eignen.
+                        </p>
+                        <p>
+                            Folgende Einstelungsmöglichkeiten gibt es:
+                            <ul>
+                                <li>Festlegen eines spezifischen Ordners wohin die kleineren Versionen kopiert werden.</li>
+                                <li>Die Größe die die quatratischen Thumbnails haben sollen</li>
+                                <li>Debug output, der mittels einer Flag aktiviert werden kann.</li>
+                            </ul>
+                        </p>
+
+                        <pre><code class="language-python">
+# Calculation of the new size, making the smaller one have the desired size is taken from here:
+# https://stackoverflow.com/questions/10607468/how-to-reduce-the-image-file-size-using-pil
+# Calculation of cropping has been taken from here
+# https://stackoverflow.com/questions/16646183/crop-an-image-in-the-centre-using-pil
+
+import argparse
+import logging
+import sys
+
+import numpy as np
+
+from math import floor
+from os import listdir
+from pathlib import Path
+from PIL import Image
+
+parser = argparse.ArgumentParser(
+    prog="create_thumbnails",
+    usage="%(prog)s folder [options]",
+    description="Creates thumbnails from all images within a folder, resizing and cropping them",
+)
+parser.add_argument('folder', help="Folder containing the images to make thumbnails")
+parser.add_argument('-o', '--output', help="Output directory")
+parser.add_argument('-s', '--size', help="Target size in pixels, default 500", default=500)
+parser.add_argument('-v', '--verbose', help="Activate debug log output", action="store_true")
+
+if len(sys.argv)==1:
+    parser.print_help(sys.stderr)
+    sys.exit(1)
+args = parser.parse_args()
+
+
+logging.basicConfig(format="%(asctime)s [%(levelname)-5s]: %(message)s", level=logging.INFO)
+if args.verbose:
+    logging.getLogger('create_thumbnails').setLevel(logging.DEBUG)
+logger = logging.getLogger('create_thumbnails')
+
+
+if not args.output:
+    outputFolder = args.folder + "thumbnails"
+    logger.info(f"No output directory specified. Creating {outputFolder}")
+else:
+    outputFolder = args.output
+    logger.info(f"Output folder specified: {outputFolder}")
+Path(outputFolder).mkdir(parents=True, exist_ok=True)
+
+logger.info(f"Scanning folder '{args.folder}' for images..")
+image_suffixes = ['.jpg', '.JPG', '.png', '.PNG']
+files = [x for x in listdir(args.folder) if list(filter(x.endswith, image_suffixes)) != []]
+logger.info(f"Found {len(files)} images to create thumbnails for")
+logger.debug(f"Files found: {files}")
+
+
+for file in files:
+    filePath = args.folder + file
+    with Image.open(filePath) as image:
+        logger.info(f"Creating thumbnail for '{file}' with size {args.size}")
+        width, height = image.size
+        logger.debug(f"  Image dimensions: {width}x{height}")
+
+        newWidth = args.size
+        newHeight = args.size
+
+        if width > height:
+            ratio = float(width) / float(height)
+            newWidth = int(floor(ratio * args.size))
+        elif height > width:
+            ratio = float(height) / float(width)
+            newHeight = int(floor(ratio * args.size))
+        logger.debug(f"  New dimensions: {newWidth}x{newHeight}")
+
+        newImage = image.resize((newWidth, newHeight))
+        logger.info(f"  Image resized to {newImage.size}, now cropping edges")
+
+    width, height = newImage.size
+    cropLeft, cropRight, cropTop, cropBottom = (0, width, 0, height)
+    if width > args.size:
+        logger.debug(f"  Width is greater than target size")
+        cropLeft = int(np.ceil((width - args.size) / 2))
+        cropRight = width - int(np.floor((width - args.size) / 2))
+    if height > args.size:
+        logger.debug(f"  Height is greater than target size")
+        cropTop = int(np.ceil((height - args.size) / 2))
+        cropBottom = height - int(np.floor((height - args.size) / 2))
+    logger.debug(f"  Points to crop: {cropLeft=} {cropRight=} {cropTop=} {cropBottom=}")
+
+    croppedImage = newImage.crop((cropLeft, cropTop, cropRight, cropBottom))
+    logger.info(f"  Image cropped to {croppedImage.size}")
+
+    logger.debug(f"  Filepath for thumbnail: {outputFolder}")
+    croppedImage.save(outputFolder + "/" + file)
+    logger.info(f"  Save thumbnail as {outputFolder}")
+                        </code></pre>
+                    </article>
+
+                </div>
+            </div>
+
+        </main>
+
+
+        <footer>
+        </footer>
+
+    </div>
+
+
+    <div class="content-image">
+        <img src="../images/writing_letter_small.jpg" alt="Bild einer handschriftlichen Briefes mit Füllfeder" class="h-25 rounded-circle border border-primary">
+    </div>
+    <div class="controls m-2 p-2">
+        <div class="control-item"><a href="#" onclick="toggleTheme(this)" id="toggle-dark-mode"></a></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script src="../js/dark-mode-toggler.js"></script>
+    <script src="../js/load-components.js"></script>
+
+</body>
+</html>
