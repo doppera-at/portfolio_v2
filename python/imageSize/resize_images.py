@@ -45,7 +45,7 @@ else:
 Path(outputFolder).mkdir(parents=True, exist_ok=True)
 
 logger.info(f"Scanning folder '{args.folder}' for images..")
-image_suffixes = ['.jpg', '.JPG', '.png', '.PNG']
+image_suffixes = ['.jpg', '.JPG', '.jpeg', '.png', '.PNG']
 files = [x for x in listdir(args.folder) if list(filter(x.endswith, image_suffixes)) != []]
 logger.info(f"Found {len(files)} images to resize")
 logger.debug(f"Files found: {files}")
@@ -67,4 +67,8 @@ for file in files:
         newImage = image.resize((newWidth, newHeight))
         logger.info(f"  Image resized to {newImage.size}")
 
-    newImage.save(outputFolder + "/" + file)
+    try:
+        exif = image.info['exif']
+        newImage.save(outputFolder + "/" + file, exif=exif)
+    except KeyError:
+        newImage.save(outputFolder + "/" + file)

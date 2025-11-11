@@ -3,743 +3,925 @@
 <photos xmlns="http://doppera.at/photos.xsd">
   <photo>
     <fileName>DSC01452.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:12:29 02:09:55</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>400</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.025</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00858.JPG</fileName>
+    <dateTime>2023:11:04 13:46:09</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>9.0</fNumber>
+    <exposureTime>0.01</exposureTime>
   </photo>
   <photo>
     <fileName>DSC00774.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:11:04 13:08:00</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>200</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.003125</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC00922.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC03351.JPG</fileName>
+    <dateTime>2025:06:20 14:56:33</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 55-210mm F4.5-6.3 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>320</iso>
+    <focalLength>210.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.016666666666666666</exposureTime>
   </photo>
   <photo>
     <fileName>DSC03428.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2025:06:20 16:42:05</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 55-210mm F4.5-6.3 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>160</iso>
+    <focalLength>210.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.0125</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC03461.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC00072.JPG</fileName>
+    <dateTime>2023:10:12 17:41:49</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>1600</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.0125</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC01679.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC01944.JPG</fileName>
+    <dateTime>2024:01:30 08:47:38</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>4.0</fNumber>
+    <exposureTime>0.005</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03450.JPG</fileName>
+    <dateTime>2025:06:20 17:02:29</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>14.0</fNumber>
+    <exposureTime>0.0125</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00734.JPG</fileName>
+    <dateTime>2023:10:31 17:43:55</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>1000</iso>
+    <focalLength>29.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.05</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01748.JPG</fileName>
+    <dateTime>2024:01:20 21:16:49</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.005</exposureTime>
   </photo>
   <photo>
     <fileName>DSC00094.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:10:12 18:01:24</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>5000</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.0125</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03388.JPG</fileName>
+    <dateTime>2025:06:20 15:46:53</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>9.0</fNumber>
+    <exposureTime>0.0125</exposureTime>
   </photo>
   <photo>
     <fileName>DSC01137.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:12:18 14:47:17</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>3200</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>8.0</fNumber>
+    <exposureTime>0.002</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00105.JPG</fileName>
+    <dateTime>2023:10:12 18:10:52</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>2500</iso>
+    <focalLength>38.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.016666666666666666</exposureTime>
   </photo>
   <photo>
     <fileName>DSC00085.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:10:12 17:54:18</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>200</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.0125</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC00833.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC00073.JPG</fileName>
+    <dateTime>2023:10:12 17:42:24</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>500</iso>
+    <focalLength>33.0</focalLength>
+    <fNumber>5.0</fNumber>
+    <exposureTime>0.02</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00090.JPG</fileName>
+    <dateTime>2023:10:12 17:58:11</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>2500</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.0125</exposureTime>
   </photo>
   <photo>
     <fileName>DSC03437.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2025:06:20 16:48:55</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>800</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.0125</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC00869.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC00129.JPG</fileName>
+    <dateTime>2023:10:13 14:26:08</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>4000</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>8.0</fNumber>
+    <exposureTime>0.004</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC00854.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC03418.JPG</fileName>
+    <dateTime>2025:06:20 16:22:38</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>160</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>14.0</fNumber>
+    <exposureTime>0.0125</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC00948.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC00667.JPG</fileName>
+    <dateTime>2023:10:18 01:26:10</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>6400</iso>
+    <focalLength>16.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.06666666666666667</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC01880.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC01866.JPG</fileName>
+    <dateTime>2024:01:21 23:12:22</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.004</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01155.JPG</fileName>
+    <dateTime>2023:12:18 15:06:20</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>3200</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>8.0</fNumber>
+    <exposureTime>0.0008</exposureTime>
   </photo>
   <photo>
     <fileName>DSC00745.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:11:04 11:42:24</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>200</iso>
+    <focalLength>49.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.00625</exposureTime>
   </photo>
   <photo>
     <fileName>DSC00664.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:10:18 01:23:17</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>6400</iso>
+    <focalLength>16.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.25</exposureTime>
   </photo>
   <photo>
     <fileName>DSC00973.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:11:04 14:26:06</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 55-210mm F4.5-6.3 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>158.0</focalLength>
+    <fNumber>10.0</fNumber>
+    <exposureTime>0.01</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC01152.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC00804.JPG</fileName>
+    <dateTime>2023:11:04 13:35:14</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.00125</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03364.JPG</fileName>
+    <dateTime>2025:06:20 15:10:10</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>1600</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>22.0</fNumber>
+    <exposureTime>0.016666666666666666</exposureTime>
   </photo>
   <photo>
     <fileName>DSC00880.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:11:04 13:58:14</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>45.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.01</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC01034.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC00950.JPG</fileName>
+    <dateTime>2023:11:04 14:20:52</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>9.0</fNumber>
+    <exposureTime>0.01</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC00674.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC03392.JPG</fileName>
+    <dateTime>2025:06:20 15:49:54</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>160</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.0125</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC01054.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC00798.JPG</fileName>
+    <dateTime>2023:11:04 13:31:48</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.00125</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03328.JPG</fileName>
+    <dateTime>2025:06:20 14:45:05</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>22.0</fNumber>
+    <exposureTime>0.0125</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01745.JPG</fileName>
+    <dateTime>2024:01:20 21:14:04</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.005</exposureTime>
   </photo>
   <photo>
     <fileName>DSC00255.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:10:14 20:43:45</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>4000</imageHeight>
+    <iso>6400</iso>
+    <focalLength>22.0</focalLength>
+    <fNumber>4.0</fNumber>
+    <exposureTime>0.05</exposureTime>
   </photo>
   <photo>
     <fileName>DSC01036.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
-  </photo>
-  <photo>
-    <fileName>DSC01017.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:11:04 16:41:31</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.016666666666666666</exposureTime>
   </photo>
   <photo>
     <fileName>DSC00712.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:10:23 17:49:29</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>500</iso>
+    <focalLength>16.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.03333333333333333</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC00254.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC00097.JPG</fileName>
+    <dateTime>2023:10:12 18:06:06</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>2500</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.0125</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC01443.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC00144.JPG</fileName>
+    <dateTime>2023:10:13 14:43:40</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>4000</imageHeight>
+    <iso>100</iso>
+    <focalLength>16.0</focalLength>
+    <fNumber>8.0</fNumber>
+    <exposureTime>0.001</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00217.JPG</fileName>
+    <dateTime>2023:10:13 18:28:53</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>4000</imageHeight>
+    <iso>100</iso>
+    <focalLength>16.0</focalLength>
+    <fNumber>5.0</fNumber>
+    <exposureTime>0.02</exposureTime>
   </photo>
   <photo>
     <fileName>DSC00098.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:10:12 18:06:28</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>2000</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.0125</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC01723.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC01932.JPG</fileName>
+    <dateTime>2024:01:27 19:55:04</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 55-210mm F4.5-6.3 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>210.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.0008</exposureTime>
   </photo>
   <photo>
     <fileName>DSC01951.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2024:01:30 08:48:19</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>4.0</fNumber>
+    <exposureTime>0.005</exposureTime>
   </photo>
   <photo>
     <fileName>DSC01134.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:12:18 09:59:45</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>3200</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>29.0</fNumber>
+    <exposureTime>0.00025</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01726.JPG</fileName>
+    <dateTime>2024:01:17 07:45:08</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>2000</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.00625</exposureTime>
   </photo>
   <photo>
     <fileName>DSC00725.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:10:23 18:30:59</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>6400</iso>
+    <focalLength>35.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.05</exposureTime>
   </photo>
   <photo>
     <fileName>DSC01121.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:12:06 01:13:20</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>1250</iso>
+    <focalLength>16.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.05</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC01141.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC01821.JPG</fileName>
+    <dateTime>2024:01:20 21:41:18</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.002</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01484.JPG</fileName>
+    <dateTime>2023:12:30 04:10:21</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>2500</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.06666666666666667</exposureTime>
   </photo>
   <photo>
     <fileName>DSC03416.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2025:06:20 16:15:38</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>160</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>20.0</fNumber>
+    <exposureTime>0.0125</exposureTime>
   </photo>
   <photo>
     <fileName>DSC01250.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
-  </photo>
-  <photo>
-    <fileName>DSC00754.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
-  </photo>
-  <photo>
-    <fileName>DSC00764.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
-  </photo>
-  <photo>
-    <fileName>DSC01025.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:12:23 19:45:08</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>500</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.0005</exposureTime>
   </photo>
   <photo>
     <fileName>DSC01976.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2024:02:06 10:57:53</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>1000</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>4.0</fNumber>
+    <exposureTime>0.008</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC00889.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC00132.JPG</fileName>
+    <dateTime>2023:10:13 14:28:52</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>4000</imageHeight>
+    <iso>100</iso>
+    <focalLength>35.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.01</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC03452.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC01139.JPG</fileName>
+    <dateTime>2023:12:18 14:49:01</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>3200</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>8.0</fNumber>
+    <exposureTime>0.002</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01557.JPG</fileName>
+    <dateTime>2024:01:01 06:06:56</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.016666666666666666</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00074.JPG</fileName>
+    <dateTime>2023:10:12 17:43:08</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>2000</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.0125</exposureTime>
   </photo>
   <photo>
     <fileName>DSC01187.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:12:18 17:59:19</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.03333333333333333</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC01514.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC00075.JPG</fileName>
+    <dateTime>2023:10:12 17:43:41</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>1600</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.0125</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC00076.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC01021.JPG</fileName>
+    <dateTime>2023:11:04 14:31:58</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>37.0</focalLength>
+    <fNumber>10.0</fNumber>
+    <exposureTime>0.01</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03377.JPG</fileName>
+    <dateTime>2025:06:20 15:40:37</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.0125</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01269.JPG</fileName>
+    <dateTime>2023:12:24 22:51:06</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>1600</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>4.0</fNumber>
+    <exposureTime>0.03333333333333333</exposureTime>
   </photo>
   <photo>
     <fileName>DSC01883.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2024:01:24 17:29:07</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.002</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC00817.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
-  </photo>
-  <photo>
-    <fileName>DSC01885.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC00079.JPG</fileName>
+    <dateTime>2023:10:12 17:49:04</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 55-210mm F4.5-6.3 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>800</iso>
+    <focalLength>210.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.0025</exposureTime>
   </photo>
   <photo>
     <fileName>DSC01107.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:12:02 20:17:04</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>200</iso>
+    <focalLength>22.0</focalLength>
+    <fNumber>5.6</fNumber>
+    <exposureTime>0.05</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC00190.JPG</fileName>
+    <dateTime>2023:10:13 15:41:59</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>4000</imageHeight>
+    <iso>100</iso>
+    <focalLength>16.0</focalLength>
+    <fNumber>5.0</fNumber>
+    <exposureTime>0.016666666666666666</exposureTime>
   </photo>
   <photo>
     <fileName>DSC00885.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
-  </photo>
-  <photo>
-    <fileName>DSC00805.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
-  </photo>
-  <photo>
-    <fileName>DSC01176.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:11:04 14:00:09</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>14.0</fNumber>
+    <exposureTime>0.01</exposureTime>
   </photo>
   <photo>
     <fileName>DSC00750.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <dateTime>2023:11:04 12:04:43</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>34.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.00625</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC01189.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC03370.JPG</fileName>
+    <dateTime>2025:06:20 15:14:15</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>500</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>22.0</fNumber>
+    <exposureTime>0.016666666666666666</exposureTime>
   </photo>
   <photo>
-    <fileName>DSC00990.JPG</fileName>
-    <dateTime>Unknown</dateTime>
-    <cameraMake>Unknown</cameraMake>
-    <cameraModel>Unknown</cameraModel>
-    <lensModel>Unknown</lensModel>
-    <imageWidth>Unknown</imageWidth>
-    <imageHeight>Unknown</imageHeight>
-    <iso>Unknown</iso>
-    <focalLength>Unknown</focalLength>
-    <fNumber>Unknown</fNumber>
-    <exposureTime>Unknown</exposureTime>
+    <fileName>DSC01881.JPG</fileName>
+    <dateTime>2024:01:24 17:28:27</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>640</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>3.5</fNumber>
+    <exposureTime>0.002</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC01032.JPG</fileName>
+    <dateTime>2023:11:04 16:40:07</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E PZ 16-50mm F3.5-5.6 OSS</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>50.0</focalLength>
+    <fNumber>6.3</fNumber>
+    <exposureTime>0.016666666666666666</exposureTime>
+  </photo>
+  <photo>
+    <fileName>DSC03326.JPG</fileName>
+    <dateTime>2025:06:20 14:43:42</dateTime>
+    <cameraMake>SONY</cameraMake>
+    <cameraModel>ILCE-6400</cameraModel>
+    <lensModel>E 30mm F3.5 Macro</lensModel>
+    <imageWidth>6000</imageWidth>
+    <imageHeight>3376</imageHeight>
+    <iso>100</iso>
+    <focalLength>30.0</focalLength>
+    <fNumber>22.0</fNumber>
+    <exposureTime>0.0125</exposureTime>
   </photo>
 </photos>
