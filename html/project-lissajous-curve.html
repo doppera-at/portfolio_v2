@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doppera.at - Portfolio eines angehenden Entwicklers</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/highlightjs/tokyo-night-light.min.css" id="highlightjs-css">
+
+    <script src="../js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../js/jquery-3.7.1.min.js"></script>
+
+    <link rel="stylesheet" href="../css/color-definitions.css">
+    <link rel="stylesheet" href="../css/violet.css">
+
+</head>
+<body class="dvw-100 m-0 p-0">
+    <div class="container-fluid m-0 p-0">
+
+
+        <header>
+        </header>
+
+
+        <nav>
+        </nav>
+
+
+        <noscript>
+            <div class="row">
+                <div class="col-md-12 text-center" id="noscript">
+                    <h2>JavaScript ist deaktiviert</h2>
+                    <p>Einige Funktionen auf dieser Seite sind mit JavaScript geschrieben und funktionieren dadurch nicht.<br>Bitte aktivieren Sie JavaScript um diese Seite in vollem Umfang nutzen zu können.</p>
+                </div>
+            </div>
+        </noscript>
+
+        <main>
+            <div class="row">
+                <div class="col-md-12">
+                    
+                    <article>
+                        <h2 lang="ja">九九カーデオイド</h2>
+                        <h2 lang="de">TimesTables Cardioid</h2>
+                        <p>
+                            Fast jeder hat dieses Phänomen schon einmal gesehen: Wenn man eine Kaffetasse hat und sich 
+                            das Licht darin bricht, erscheint auf dem Boden eine Herzform oder Carioid. Dieses entsteht 
+                            weil sich die Strahlen in dem runden Gefäß brechen und da Strahlen sich (zumindest meist) 
+                            wie Partikel verhalten, lässt sich diese Form auch mit Programmierung recht einfach
+                            nachstellen.<br>
+                            Das funktioniert wie folgt: Man nehme einen Kreis und teile ihn in gleichmäßige Teile. Wenn 
+                            man dann jeden einzelnen Punkt durchgeht und ihn mit dem Punkt mal 2 verbindet, entsteht aus 
+                            geraden Linien diese wunderschön runde Form. Daher kommt auch der Name des "TimesTables 
+                            Cardioid", weil man immer den Index des Punktes mal 2 nimmt.<br>
+                            Beispiel: Der 4. Punkt zeichnet einen Strich zum 8., der 9. Punkt zum 18. usw.
+                        </p>
+                        <p>
+                            Für dieses Script habe ich als Framework <em>PyGame</em> verwendet, das rundimentäre 
+                            Möglichkeiten zum Zeichnen bietet. Mit diesen einfachen Mitteln habe ich mir Elemente für 
+                            eine grafische Oberfläche erstellt und eingebunden, wodurch sich die Werte mit 
+                            Schiebereglnern verändern lassen.<br>
+                            Dadurch wollte ich Erkunden, was sich noch so für Möglichkeiten ergeben, wenn man nicht nur 
+                            mal 2 rechnet sondern andere Zahlen nimmt. Das habe ich dann auch mittels einer Animation 
+                            dargestellt.
+                        </p>
+                        <pre><code class="language-python">
+import sys, math
+import pygame as pg
+import utils.colors as c
+from utils.gui_elements import *
+from utils.utils import calculate_points_on_circle
+from ecs.Entity import Entity
+
+
+pg.init()
+screen = pg.display.set_mode((800, 600))
+screen.set_colorkey(c.TRANSPARENT)
+pg.display.set_caption("Times table cardoid")
+font = pg.font.SysFont("Verdana", 14)
+clock = pg.time.Clock()
+
+main_canvas = pg.Surface((600, 600))
+gui_canvas = pg.Surface((200, 600))
+gui_canvas.set_colorkey(c.TRANSPARENT)
+gui_pos = (600, 0)
+gui_elements = []
+
+
+circle = Entity("Circle")
+circle.pos = (int(main_canvas.get_rect().width / 2), int(main_canvas.get_rect().height / 2))
+circle.radius = main_canvas.get_rect().width / 2 - 50
+
+app_config = Entity("TimesTable")
+app_config.num_points = 100
+app_config.multiplier = 2
+app_config.animate = False
+app_config.reset = False
+
+slider_radius = Slider(circle, "radius", (50, 500), font)
+gui_elements.append(slider_radius)
+slider_points = Slider(app_config, "num_points", (50, 500), font)
+gui_elements.append(slider_points)
+slider_multiplier = Slider(app_config, "multiplier", (2, 200), font)
+gui_elements.append(slider_multiplier)
+button_multiplier = ButtonIncrement(app_config, "multiplier", font, step_size=1, rng=(2, 200))
+gui_elements.append(button_multiplier)
+button_animation = ButtonToggle(app_config, "animate", font)
+gui_elements.append(button_animation)
+button_reset = ButtonToggle(app_config, "reset", font)
+gui_elements.append(button_reset)
+
+def main():
+    while True:
+        handle_events()
+
+        screen.fill(c.BLACK)
+        main_canvas.fill(c.BLACK)
+        gui_canvas.fill(c.TRANSPARENT)
+
+        if app_config.reset:
+            app_config.animate = False
+            app_config.multiplier = 2
+            circle.radius = main_canvas.get_rect().width / 2 - 50
+            app_config.reset = False
+        if app_config.animate:
+            app_config.multiplier += 0.1
+            if app_config.multiplier > 200: app_config.multiplier = 1
+
+        #pg.draw.circle(main_canvas, c.YELLOW, circle.pos, int(circle.radius), 1)
+        app_config.points = calculate_points_on_circle(circle.pos, circle.radius, app_config.num_points)
+        app_config.lines = generate_lines(app_config.points, app_config.multiplier)
+        for point in app_config.points:
+            pg.draw.circle(main_canvas, c.YELLOW_GREEN, (int(point[0]), int(point[1])), 2, 0)
+        for (p1, p2) in app_config.lines:
+            pg.draw.line(main_canvas, c.YELLOW_GREEN, (int(p1[0]), int(p1[1])), (int(p2[0]), int(p2[1])), 1)
+
+        screen.blit(main_canvas, main_canvas.get_rect())
+
+
+        create_gui(gui_canvas)
+        gui_rect = gui_canvas.get_rect(left=gui_pos[0], top=gui_pos[1])
+        screen.blit(gui_canvas, gui_rect)
+
+
+        pg.display.flip()
+        clock.tick(60)
+        pg.display.set_caption("{} (FPS: {})")
+
+def generate_lines(points=[], num=2):
+    result = []
+    for i in range(0, len(points)):
+        p1 = points[i]
+        p2 = points[(i*int(num)) % len(points)]
+        result.append((p1, p2))
+    return result
+
+def handle_events():
+    for event in pg.event.get():
+        mouse_pos = pg.mouse.get_pos()
+        if event.type == pg.QUIT:
+            pg.quit()
+            sys.exit()
+        elif event.type == pg.MOUSEBUTTONDOWN:
+            for element in gui_elements:
+                if isinstance(element, Slider) and element.is_clicked(mouse_pos):
+                    element.clicked = True
+                elif isinstance(element, Button) or isinstance(element, ButtonIncrement) or isinstance(element, ButtonToggle):
+                    if element.is_clicked(mouse_pos):
+                        element.action(mouse_pos)
+        elif event.type == pg.MOUSEMOTION:
+            for element in gui_elements:
+                if isinstance(element, Slider) and element.clicked:
+                    element.action(mouse_pos)
+        elif event.type == pg.MOUSEBUTTONUP:
+            for element in gui_elements:
+                if isinstance(element, Slider):
+                    element.clicked = False
+    for e in gui_elements:
+        e.update()
+
+def create_gui(canvas):
+    pg.draw.rect(canvas, c.GRAY, canvas.get_rect(), 1)
+    y_offset = GUI_Element.MARGIN
+    for element in gui_elements:
+        e_canvas = element.create_canvas()
+        e_rect = e_canvas.get_rect(left=GUI_Element.MARGIN, top=y_offset)
+        element.pos = (e_rect.left + gui_pos[0], e_rect.top + gui_pos[1])
+        y_offset += e_rect.height + GUI_Element.MARGIN
+        canvas.blit(e_canvas, e_rect)
+
+
+if __name__ == '__main__':
+    main()
+                        </code></pre>
+                    </article>
+
+
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-md-12 spacer">&nbsp;</div>
+            </div>
+
+        </main>
+
+
+        <footer>
+        </footer>
+
+    </div>
+
+
+    <div class="content-image">
+        <img src="../images/writing_letter_small.jpg" alt="Bild einer handschriftlichen Briefes mit Füllfeder" class="h-25 rounded-circle border border-primary">
+    </div>
+    <div class="controls m-2 p-2">
+        <div class="control-item"><a href="#" onclick="toggleTheme(this)" id="toggle-dark-mode"></a></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script src="../js/dark-mode-toggler.js"></script>
+    <script src="../js/load-components.js"></script>
+
+</body>
+</html>
