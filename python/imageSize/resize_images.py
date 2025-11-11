@@ -67,4 +67,5 @@ for file in files:
         newImage = image.resize((newWidth, newHeight))
         logger.info(f"  Image resized to {newImage.size}")
 
-    newImage.save(outputFolder + "/" + file)
+    exif = image.info['exif']
+    newImage.save(outputFolder + "/" + file, exif=exif)
