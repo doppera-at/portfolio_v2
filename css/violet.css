@@ -136,6 +136,8 @@ nav {
 .dropdown-menu {
     background-color: var(--heading-shadow);
     border: 1px solid var(--line);
+    padding: 0.5rem;
+    width: 15rem;
 }
 .dropdown-item:hover {
     background-color: var(--background);
@@ -194,8 +196,11 @@ main li {
 main pre {
     padding: 5rem;
 }
-code {
+main pre code {
     border: 1px solid var(--line);
+}
+.hljs {
+    font-family:'Courier New', Courier, monospace;
 }
 
 
