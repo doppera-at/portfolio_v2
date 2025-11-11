@@ -259,6 +259,11 @@ span.name::before,
 span.name::after {
     content: "'";
 }
+em {
+    font-weight: bold;
+    font-style: normal;
+    color: var(--heading);
+}
 
 
 /*
