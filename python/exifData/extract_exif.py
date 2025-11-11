@@ -82,11 +82,6 @@ for file, imageData in images.items():
         photo.append(element)
 
 logger.debug(f"XML tree: {ET.tostring(root)}")
-# for element in root.iter():
-#     attrib = element.attrib
-#     if len(attrib) > 1:
-#         print(attrib)
-#     print(f"{element}: {element.text}")
 
 tree = ET.ElementTree(root)
 ET.indent(tree, space="  ", level=0)
