@@ -157,8 +157,8 @@ else:
     outputFile = "photos.xml"
 logger.debug(f"Output file: {outputFile}")
 
-xmlVersion = '<?xml version="1.0" encoding="utf-8"?>'
-xmlModel = '<?xml-model href="photos.xsd"?>'
+xmlVersion = "&lt;?xml version='1.0' encoding='utf-8'?&gt;"
+xmlModel = "&lt;?xml-model href='photos.xsd'?&gt;"
 with open(outputFile, "w") as file:
     file.write(f"{xmlVersion}\n{xmlModel}\n")
 with open(outputFile, "ab") as file:
