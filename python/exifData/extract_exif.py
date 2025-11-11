@@ -31,9 +31,9 @@ if args.verbose:
 logger = logging.getLogger('extract_exif')
 
 
-logger.debug("WHY ISNT THIS SHOWING UP????????")
 logger.info(f"Scanning folder {args.folder} for images to extract exif data from")
-files = [x for x in listdir(args.folder) if x.endswith('.JPG')]
+image_suffixes = ['.jpg', '.JPG', '.jpeg', '.png', '.PNG']
+files = [x for x in listdir(args.folder) if list(filter(x.endswith, image_suffixes)) != []]
 if not files:
     sys.exit(f"No images in provided folder: ${args.folder}")
 logger.info(f"Found {len(files)} images")
